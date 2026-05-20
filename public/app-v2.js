@@ -184,11 +184,7 @@ class IntegrationApp {
               <div style="font-size: 10px; color: var(--color-text-muted);">of 5</div>
             </div>
 
-            <div style="display: grid; gap: 6px; margin-top: 16px; padding-top: 16px; border-top: 0.5px solid var(--color-border-tertiary);">
-              <button onclick="if(confirm('Clear all progress and start fresh?')) { localStorage.clear(); app = new IntegrationApp(app.passages); app.render(); }" style="padding: 8px 12px; background: #e74c3c; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px; font-weight: 500;">
-                New Session
-              </button>
-            </div>
+            ${stats.weakPassages.length > 0 ? `
               <div style="padding-top: 12px; border-top: 0.5px solid var(--color-border-tertiary); margin-top: 12px;">
                 <div style="font-size: 11px; color: #e74c3c; font-weight: 500; margin-bottom: 6px;">Weak (1-2): ${stats.weakPassages.length}</div>
                 <div style="display: grid; gap: 3px; max-height: 120px; overflow-y: auto;">
