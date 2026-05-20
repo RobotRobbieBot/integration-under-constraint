@@ -131,10 +131,7 @@ class IntegrationApp {
             </div>
 
             ${passage.understanding ? `
-              <div class="passage-understanding" id="understanding-${passage.id}" style="display: none; background: var(--color-background-secondary); border-radius: 8px; padding: 12px; margin-top: 12px; font-size: 14px; line-height: 1.6;">
-                ${passage.understanding}
-              </div>
-              <button class="btn" onclick="const el = document.getElementById('understanding-${passage.id}'); el.style.display = el.style.display === 'none' ? 'block' : 'none'; this.textContent = el.style.display === 'none' ? 'Show Understanding' : 'Hide Understanding';" style="margin-top: 12px;">Show Understanding</button>
+              <div id="understanding-container-${passage.id}" style="margin-top: 12px;"></div>
             ` : ''}
 
             <div style="margin-top: var(--spacing-lg);">
@@ -458,7 +455,36 @@ class IntegrationApp {
   ratePassage(passageId, rating) {
     this.state.passageRatings[passageId] = rating;
     this.saveState();
+    this.updateUnderstandingDisplay(passageId, rating);
     this.renderStudyTab();
+  }
+
+  updateUnderstandingDisplay(passageId, rating) {
+    const container = document.getElementById(`understanding-container-${passageId}`);
+    if (!container) return;
+
+    const passage = this.passages.find(p => p.id === passageId);
+    if (!passage || !passage.understanding) return;
+
+    let text = '';
+    let level = '';
+    
+    if (rating <= 2) {
+      text = passage.understanding.full || passage.understanding;
+      level = 'full';
+    } else if (rating === 3) {
+      text = passage.understanding.medium || passage.understanding.full || passage.understanding;
+      level = 'medium';
+    } else {
+      text = passage.understanding.brief || passage.understanding.medium || passage.understanding;
+      level = 'brief';
+    }
+
+    container.innerHTML = `
+      <div style="background: var(--color-background-secondary); border-radius: 8px; padding: 12px; font-size: 14px; line-height: 1.6;">
+        <strong>Understanding:</strong> ${text}
+      </div>
+    `;
   }
 
   nextPassage(total) {

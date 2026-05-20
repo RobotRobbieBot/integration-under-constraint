@@ -21,7 +21,11 @@
         "J005",
         "B012"
       ],
-      "understanding": "The Shadow (Jung's term) is the part of yourself you don't acknowledge\u2014anger you suppress, ambition you deny, fear you hide. These unconscious forces still drive your choices. You blame circumstances (\"fate\") when really you're being controlled by what you won't look at. Making it conscious means seeing it, naming it, integrating it into your self-awareness."
+      "understanding": {
+        "brief": "Unconscious forces drive behavior until made conscious.",
+        "medium": "The Shadow (Jung's term) is the part of yourself you don't acknowledge. These unconscious forces drive your choices until you make them conscious.",
+        "full": "The Shadow (Jung's term) is the part of yourself you don't acknowledge\u2014anger you suppress, ambition you deny, fear you hide. These unconscious forces still drive your choices. You blame circumstances (\"fate\") when really you're being controlled by what you won't look at. Making it conscious means seeing it, naming it, integrating it into your self-awareness."
+      }
     },
     {
       "id": "J002",
@@ -38,7 +42,11 @@
         "B018",
         "S045"
       ],
-      "understanding": "Complexes are clusters of unconscious thoughts and feelings organized around a core theme. They're like mini-personalities running in the background. You might have a \"father complex\" (unresolved feelings about authority) or a \"success complex\" (driving need to prove worth). They don't cause problems until you're unconscious of them."
+      "understanding": {
+        "brief": "Complexes are unconscious thought clusters that influence behavior.",
+        "medium": "Complexes are clusters of unconscious thoughts and feelings organized around a core theme. They're like mini-personalities running in the background.",
+        "full": "Complexes are clusters of unconscious thoughts and feelings organized around a core theme. They're like mini-personalities running in the background. You might have a \"father complex\" (unresolved feelings about authority) or a \"success complex\" (driving need to prove worth). They don't cause problems until you're unconscious of them."
+      }
     },
     {
       "id": "J003",
@@ -55,7 +63,11 @@
         "L009",
         "S012"
       ],
-      "understanding": "Individuation is Jung's term for becoming yourself. Not conforming to what parents/society expect, but discovering and living your actual nature. It's lifelong work. Most people never do it\u2014they live out scripts written by others."
+      "understanding": {
+        "brief": "Individuation is becoming your authentic self, not living others' scripts.",
+        "medium": "Individuation is Jung's term for becoming yourself. Not conforming to what parents/society expect, but discovering and living your actual nature.",
+        "full": "Individuation is Jung's term for becoming yourself. Not conforming to what parents/society expect, but discovering and living your actual nature. It's lifelong work. Most people never do it\u2014they live out scripts written by others."
+      }
     },
     {
       "id": "J004",
@@ -443,7 +455,11 @@
         "B003",
         "J010"
       ],
-      "understanding": "Differentiation means maintaining your own sense of self while staying emotionally connected to others. High differentiation: you have clear values, you don't absorb others' anxiety, you can disagree without cutting off. Low differentiation: you're reactive, you merge with others' emotions, you either cling or flee."
+      "understanding": {
+        "brief": "Differentiation: maintaining your own self while staying emotionally connected.",
+        "medium": "Differentiation means maintaining your own sense of self while staying emotionally connected to others. High differentiation: you have clear values, you don't absorb others' anxiety, you can disagree without cutting off.",
+        "full": "Differentiation means maintaining your own sense of self while staying emotionally connected to others. High differentiation: you have clear values, you don't absorb others' anxiety, you can disagree without cutting off. Low differentiation: you're reactive, you merge with others' emotions, you either cling or flee."
+      }
     },
     {
       "id": "B002",
@@ -460,7 +476,11 @@
         "B012",
         "S046"
       ],
-      "understanding": "Emotional triangulation happens when two people pull a third into their conflict to reduce tension between them. Example: parents fight, kid becomes the problem child, focus shifts to fixing the kid instead of resolving the marriage. Reduces immediate anxiety but doesn't solve the real issue."
+      "understanding": {
+        "brief": "Triangulation: pulling a third person into a conflict to reduce tension.",
+        "medium": "Emotional triangulation happens when two people pull a third into their conflict to reduce tension between them. This reduces immediate anxiety but doesn't solve the real issue.",
+        "full": "Emotional triangulation happens when two people pull a third into their conflict to reduce tension between them. Example: parents fight, kid becomes the problem child, focus shifts to fixing the kid instead of resolving the marriage. Reduces immediate anxiety but doesn't solve the real issue."
+      }
     },
     {
       "id": "B003",
