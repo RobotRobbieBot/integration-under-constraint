@@ -151,6 +151,7 @@ class IntegrationApp {
               <button class="btn btn-primary" onclick="app.nextPassage(${passages.length})">Next Passage</button>
               ${this.selectedPassageIndex > 0 ? `<button class="btn" onclick="app.prevPassage()">Previous</button>` : ''}
               <button class="btn" onclick="app.completedSession()">Session Complete</button>
+              <button class="btn" onclick="app.switchTab('study')">Back to Frameworks</button>
             </div>
           </div>
         `;
