@@ -312,12 +312,12 @@ class IntegrationApp {
 let app;
 async function loadPassages() {
   try {
-    const response = await fetch('./data/passages-complete.json');
+    const response = await fetch('./passages-complete.json');
     const data = await response.json();
     app = new IntegrationApp(data.passages);
   } catch (error) {
     console.error('Error:', error);
-    document.getElementById('app').innerHTML = '<div style="padding:24px;color:red;">Error loading passages</div>';
+    document.getElementById('app').innerHTML = '<div style="padding:24px;color:red;">Error loading passages. Check console.</div>';
   }
 }
 
