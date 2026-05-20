@@ -312,12 +312,18 @@ class IntegrationApp {
 let app;
 async function loadPassages() {
   try {
-    const response = await fetch('./passages-complete.json');
+    const url = window.location.hostname === 'localhost' 
+      ? './passages-complete.json'
+      : '/integration-under-constraint/passages-complete.json';
+    
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    
     const data = await response.json();
     app = new IntegrationApp(data.passages);
   } catch (error) {
-    console.error('Error:', error);
-    document.getElementById('app').innerHTML = '<div style="padding:24px;color:red;">Error loading passages. Check console.</div>';
+    console.error('Fetch error:', error);
+    document.getElementById('app').innerHTML = `<div style="padding:24px;color:red;">Error: ${error.message}</div>`;
   }
 }
 
