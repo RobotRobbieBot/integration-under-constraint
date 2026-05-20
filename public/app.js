@@ -275,7 +275,7 @@ class IntegrationApp {
             <strong>${p.framework} - ${p.concept}</strong><br/>
             <span style="color: var(--color-text-muted);">${p.author}: "${p.text.substring(0, 60)}..."</span>
             <div style="margin-top: 4px;">
-              <button class="btn" onclick="app.reviewPassage('${p.framework}', '${p.concept}')">Review</button>
+              <button class="btn" onclick="app.reviewPassage('${p.id}')">Review</button>
             </div>
           </div>
         `;
@@ -571,13 +571,6 @@ class IntegrationApp {
     this.saveState();
     alert('Session completed! Great work. Switch to Dashboard to track progress.');
     this.switchTab('dashboard');
-  }
-
-  reviewPassage(framework, concept) {
-    this.selectedFramework = framework;
-    this.selectedConcept = concept;
-    this.selectedPassageIndex = 0;
-    this.switchTab('study');
   }
 
   submitEssay(event) {
