@@ -466,22 +466,26 @@ class IntegrationApp {
     const passage = this.passages.find(p => p.id === passageId);
     if (!passage || !passage.understanding) return;
 
+    const understanding = passage.understanding;
     let text = '';
-    let level = '';
     
-    if (rating <= 2) {
-      text = passage.understanding.full || passage.understanding;
-      level = 'full';
-    } else if (rating === 3) {
-      text = passage.understanding.medium || passage.understanding.full || passage.understanding;
-      level = 'medium';
-    } else {
-      text = passage.understanding.brief || passage.understanding.medium || passage.understanding;
-      level = 'brief';
+    // Handle both old string format and new dict format
+    if (typeof understanding === 'string') {
+      text = understanding;
+    } else if (typeof understanding === 'object') {
+      if (rating <= 2) {
+        text = understanding.full || understanding.medium || understanding.brief || '';
+      } else if (rating === 3) {
+        text = understanding.medium || understanding.full || understanding.brief || '';
+      } else {
+        text = understanding.brief || understanding.medium || understanding.full || '';
+      }
     }
 
+    if (!text) return;
+
     container.innerHTML = `
-      <div style="background: var(--color-background-secondary); border-radius: 8px; padding: 12px; font-size: 14px; line-height: 1.6;">
+      <div style="background: var(--color-background-secondary); border-radius: 8px; padding: 12px; margin-top: 8px; font-size: 14px; line-height: 1.6; color: var(--color-text-primary);">
         <strong>Understanding:</strong> ${text}
       </div>
     `;
