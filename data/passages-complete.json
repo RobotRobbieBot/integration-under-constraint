@@ -16,7 +16,12 @@
       "concept": "Shadow",
       "difficulty": 1,
       "intent": "Foundation: unconscious forces shape behavior until integrated",
-      "cross_links": ["J004", "J005", "B012"]
+      "cross_links": [
+        "J004",
+        "J005",
+        "B012"
+      ],
+      "understanding": "The Shadow (Jung's term) is the part of yourself you don't acknowledge\u2014anger you suppress, ambition you deny, fear you hide. These unconscious forces still drive your choices. You blame circumstances (\"fate\") when really you're being controlled by what you won't look at. Making it conscious means seeing it, naming it, integrating it into your self-awareness."
     },
     {
       "id": "J002",
@@ -28,7 +33,12 @@
       "concept": "Anima/Animus",
       "difficulty": 1,
       "intent": "Relational depth: genuine meeting transforms both",
-      "cross_links": ["J013", "B018", "S045"]
+      "cross_links": [
+        "J013",
+        "B018",
+        "S045"
+      ],
+      "understanding": "Complexes are clusters of unconscious thoughts and feelings organized around a core theme. They're like mini-personalities running in the background. You might have a \"father complex\" (unresolved feelings about authority) or a \"success complex\" (driving need to prove worth). They don't cause problems until you're unconscious of them."
     },
     {
       "id": "J003",
@@ -40,7 +50,12 @@
       "concept": "Persona",
       "difficulty": 1,
       "intent": "Define persona as social mask separate from true self",
-      "cross_links": ["J008", "L009", "S012"]
+      "cross_links": [
+        "J008",
+        "L009",
+        "S012"
+      ],
+      "understanding": "Individuation is Jung's term for becoming yourself. Not conforming to what parents/society expect, but discovering and living your actual nature. It's lifelong work. Most people never do it\u2014they live out scripts written by others."
     },
     {
       "id": "J004",
@@ -52,7 +67,12 @@
       "concept": "Shadow",
       "difficulty": 2,
       "intent": "Shadow integration requires facing darkness; cannot be bypassed through denial",
-      "cross_links": ["J001", "J009", "G005"]
+      "cross_links": [
+        "J001",
+        "J009",
+        "G005"
+      ],
+      "understanding": null
     },
     {
       "id": "J005",
@@ -64,7 +84,12 @@
       "concept": "Shadow",
       "difficulty": 2,
       "intent": "Shadow as personal + collective repression; genealogical roots",
-      "cross_links": ["J001", "B024", "B025"]
+      "cross_links": [
+        "J001",
+        "B024",
+        "B025"
+      ],
+      "understanding": null
     },
     {
       "id": "J006",
@@ -76,7 +101,12 @@
       "concept": "Complexes",
       "difficulty": 1,
       "intent": "Define complex mechanism as emotionally-charged cluster",
-      "cross_links": ["J007", "G004", "B012"]
+      "cross_links": [
+        "J007",
+        "G004",
+        "B012"
+      ],
+      "understanding": null
     },
     {
       "id": "J007",
@@ -88,7 +118,12 @@
       "concept": "Complexes",
       "difficulty": 2,
       "intent": "Complexes as autonomous; consciousness subordinated when activated",
-      "cross_links": ["J006", "G003", "G004"]
+      "cross_links": [
+        "J006",
+        "G003",
+        "G004"
+      ],
+      "understanding": null
     },
     {
       "id": "J008",
@@ -100,7 +135,12 @@
       "concept": "Shadow",
       "difficulty": 1,
       "intent": "Shadow as the unknown other within; revealed through dreams",
-      "cross_links": ["J001", "J010", "J013"]
+      "cross_links": [
+        "J001",
+        "J010",
+        "J013"
+      ],
+      "understanding": null
     },
     {
       "id": "J009",
@@ -112,7 +152,12 @@
       "concept": "Self",
       "difficulty": 2,
       "intent": "Self as unified totality; transcends ego-consciousness",
-      "cross_links": ["J011", "J012", "S034"]
+      "cross_links": [
+        "J011",
+        "J012",
+        "S034"
+      ],
+      "understanding": null
     },
     {
       "id": "J010",
@@ -124,7 +169,12 @@
       "concept": "Individuation",
       "difficulty": 2,
       "intent": "Individuation as integration; Self realization as endpoint",
-      "cross_links": ["J009", "J011", "B032"]
+      "cross_links": [
+        "J009",
+        "J011",
+        "B032"
+      ],
+      "understanding": null
     },
     {
       "id": "J011",
@@ -136,7 +186,12 @@
       "concept": "Individuation",
       "difficulty": 1,
       "intent": "Individuation as differentiation from collective; becoming distinct",
-      "cross_links": ["J010", "B003", "B004"]
+      "cross_links": [
+        "J010",
+        "B003",
+        "B004"
+      ],
+      "understanding": null
     },
     {
       "id": "J012",
@@ -148,7 +203,12 @@
       "concept": "Shadow",
       "difficulty": 3,
       "intent": "Shadow work requires moral courage; not just psychological insight",
-      "cross_links": ["J004", "J005", "F008"]
+      "cross_links": [
+        "J004",
+        "J005",
+        "F008"
+      ],
+      "understanding": null
     },
     {
       "id": "J013",
@@ -160,7 +220,12 @@
       "concept": "Anima/Animus",
       "difficulty": 2,
       "intent": "Anima/animus as projection mechanism; integration prevents false attachment",
-      "cross_links": ["J002", "J014", "B018"]
+      "cross_links": [
+        "J002",
+        "J014",
+        "B018"
+      ],
+      "understanding": null
     },
     {
       "id": "J014",
@@ -172,7 +237,12 @@
       "concept": "Unconscious",
       "difficulty": 2,
       "intent": "Unconscious has wisdom; not mere repression vault",
-      "cross_links": ["J008", "S021", "G002"]
+      "cross_links": [
+        "J008",
+        "S021",
+        "G002"
+      ],
+      "understanding": null
     },
     {
       "id": "J015",
@@ -184,7 +254,12 @@
       "concept": "Synchronicity",
       "difficulty": 3,
       "intent": "Define synchronicity; challenges linear causality assumption",
-      "cross_links": ["J014", "J016", "S050"]
+      "cross_links": [
+        "J014",
+        "J016",
+        "S050"
+      ],
+      "understanding": null
     },
     {
       "id": "J016",
@@ -196,7 +271,11 @@
       "concept": "Synchronicity",
       "difficulty": 3,
       "intent": "Synchronicity as proof of non-causal order; consciousness-matter link",
-      "cross_links": ["J015", "S033"]
+      "cross_links": [
+        "J015",
+        "S033"
+      ],
+      "understanding": null
     },
     {
       "id": "J017",
@@ -208,7 +287,12 @@
       "concept": "Projection",
       "difficulty": 2,
       "intent": "Projection prevents authentic meeting; blocks real relationship",
-      "cross_links": ["J002", "J013", "B018"]
+      "cross_links": [
+        "J002",
+        "J013",
+        "B018"
+      ],
+      "understanding": null
     },
     {
       "id": "J018",
@@ -220,7 +304,12 @@
       "concept": "Projection",
       "difficulty": 2,
       "intent": "Projection mechanism defined: unconscious attribution to other",
-      "cross_links": ["J013", "B017", "L004"]
+      "cross_links": [
+        "J013",
+        "B017",
+        "L004"
+      ],
+      "understanding": null
     },
     {
       "id": "J019",
@@ -232,7 +321,12 @@
       "concept": "Archetypes",
       "difficulty": 2,
       "intent": "Archetypes as collective universal patterns underlying experience",
-      "cross_links": ["J020", "J021", "B024"]
+      "cross_links": [
+        "J020",
+        "J021",
+        "B024"
+      ],
+      "understanding": null
     },
     {
       "id": "J020",
@@ -244,7 +338,12 @@
       "concept": "Shadow",
       "difficulty": 2,
       "intent": "Unacknowledged shadow grows darker; expression lightens it",
-      "cross_links": ["J001", "J004", "L003"]
+      "cross_links": [
+        "J001",
+        "J004",
+        "L003"
+      ],
+      "understanding": null
     },
     {
       "id": "J021",
@@ -256,7 +355,12 @@
       "concept": "Collective Unconscious",
       "difficulty": 3,
       "intent": "Collective unconscious as inherited psychological substrate; species memory",
-      "cross_links": ["J019", "J005", "B024"]
+      "cross_links": [
+        "J019",
+        "J005",
+        "B024"
+      ],
+      "understanding": null
     },
     {
       "id": "J022",
@@ -268,7 +372,12 @@
       "concept": "Unconscious",
       "difficulty": 3,
       "intent": "Unconscious contains both destructive and creative potentials",
-      "cross_links": ["J014", "J020", "J021"]
+      "cross_links": [
+        "J014",
+        "J020",
+        "J021"
+      ],
+      "understanding": null
     },
     {
       "id": "J023",
@@ -280,7 +389,11 @@
       "concept": "Shadow",
       "difficulty": 1,
       "intent": "Denial increases shadow density; integration lightens it",
-      "cross_links": ["J001", "J020"]
+      "cross_links": [
+        "J001",
+        "J020"
+      ],
+      "understanding": null
     },
     {
       "id": "J024",
@@ -292,7 +405,11 @@
       "concept": "Collective Unconscious",
       "difficulty": 2,
       "intent": "Collective unconscious as evolution made psychological",
-      "cross_links": ["J021", "B024"]
+      "cross_links": [
+        "J021",
+        "B024"
+      ],
+      "understanding": null
     },
     {
       "id": "J025",
@@ -304,7 +421,12 @@
       "concept": "Collective Unconscious",
       "difficulty": 2,
       "intent": "Collective operates without individual awareness; rules by default",
-      "cross_links": ["J021", "J024", "B001"]
+      "cross_links": [
+        "J021",
+        "J024",
+        "B001"
+      ],
+      "understanding": null
     },
     {
       "id": "B001",
@@ -316,7 +438,12 @@
       "concept": "Differentiation",
       "difficulty": 1,
       "intent": "Foundation: differentiation as core mechanism of health",
-      "cross_links": ["B002", "B003", "J010"]
+      "cross_links": [
+        "B002",
+        "B003",
+        "J010"
+      ],
+      "understanding": "Differentiation means maintaining your own sense of self while staying emotionally connected to others. High differentiation: you have clear values, you don't absorb others' anxiety, you can disagree without cutting off. Low differentiation: you're reactive, you merge with others' emotions, you either cling or flee."
     },
     {
       "id": "B002",
@@ -328,7 +455,12 @@
       "concept": "Differentiation",
       "difficulty": 2,
       "intent": "Low differentiation = vulnerability to system reactivity under stress",
-      "cross_links": ["B001", "B012", "S046"]
+      "cross_links": [
+        "B001",
+        "B012",
+        "S046"
+      ],
+      "understanding": "Emotional triangulation happens when two people pull a third into their conflict to reduce tension between them. Example: parents fight, kid becomes the problem child, focus shifts to fixing the kid instead of resolving the marriage. Reduces immediate anxiety but doesn't solve the real issue."
     },
     {
       "id": "B003",
@@ -340,7 +472,12 @@
       "concept": "Differentiation",
       "difficulty": 1,
       "intent": "Differentiation defined: autonomous self-maintenance in relationship",
-      "cross_links": ["B001", "J011", "S007"]
+      "cross_links": [
+        "B001",
+        "J011",
+        "S007"
+      ],
+      "understanding": null
     },
     {
       "id": "B004",
@@ -352,7 +489,11 @@
       "concept": "Differentiation",
       "difficulty": 1,
       "intent": "Higher differentiation correlates with better functioning across domains",
-      "cross_links": ["B001", "B003"]
+      "cross_links": [
+        "B001",
+        "B003"
+      ],
+      "understanding": null
     },
     {
       "id": "B005",
@@ -364,7 +505,12 @@
       "concept": "Triangulation",
       "difficulty": 1,
       "intent": "Define triangulation: three-person stability mechanism",
-      "cross_links": ["B006", "B007", "J017"]
+      "cross_links": [
+        "B006",
+        "B007",
+        "J017"
+      ],
+      "understanding": null
     },
     {
       "id": "B006",
@@ -376,7 +522,12 @@
       "concept": "Triangulation",
       "difficulty": 2,
       "intent": "Triangulation as system requirement for stability; not individual pathology",
-      "cross_links": ["B005", "B008", "G001"]
+      "cross_links": [
+        "B005",
+        "B008",
+        "G001"
+      ],
+      "understanding": null
     },
     {
       "id": "B007",
@@ -388,7 +539,12 @@
       "concept": "Triangulation",
       "difficulty": 2,
       "intent": "Agency in triangulation: three paths available",
-      "cross_links": ["B005", "B006", "S047"]
+      "cross_links": [
+        "B005",
+        "B006",
+        "S047"
+      ],
+      "understanding": null
     },
     {
       "id": "B008",
@@ -400,7 +556,12 @@
       "concept": "Triangulation",
       "difficulty": 2,
       "intent": "Emotional intensity in triangle proportional to system stress",
-      "cross_links": ["B005", "B006", "J007"]
+      "cross_links": [
+        "B005",
+        "B006",
+        "J007"
+      ],
+      "understanding": null
     },
     {
       "id": "B009",
@@ -412,7 +573,12 @@
       "concept": "Emotional Cutoff",
       "difficulty": 1,
       "intent": "Define cutoff: managing unresolved fusion through distance",
-      "cross_links": ["B010", "B011", "J008"]
+      "cross_links": [
+        "B010",
+        "B011",
+        "J008"
+      ],
+      "understanding": null
     },
     {
       "id": "B010",
@@ -424,7 +590,12 @@
       "concept": "Emotional Cutoff",
       "difficulty": 2,
       "intent": "Cutoff creates transmission: unresolved fusion repeats downstream",
-      "cross_links": ["B009", "B024", "B025"]
+      "cross_links": [
+        "B009",
+        "B024",
+        "B025"
+      ],
+      "understanding": null
     },
     {
       "id": "B011",
@@ -436,7 +607,12 @@
       "concept": "Emotional Cutoff",
       "difficulty": 2,
       "intent": "Cutoff is avoidance, not resolution; fusion remains underground",
-      "cross_links": ["B009", "B010", "G003"]
+      "cross_links": [
+        "B009",
+        "B010",
+        "G003"
+      ],
+      "understanding": null
     },
     {
       "id": "B012",
@@ -448,7 +624,12 @@
       "concept": "Emotional Process",
       "difficulty": 2,
       "intent": "Stress triggers regression; differentiation becomes automatic reactivity",
-      "cross_links": ["B002", "B003", "J007"]
+      "cross_links": [
+        "B002",
+        "B003",
+        "J007"
+      ],
+      "understanding": null
     },
     {
       "id": "B013",
@@ -460,7 +641,12 @@
       "concept": "Emotional Process",
       "difficulty": 1,
       "intent": "Family systems are automatic; consciousness secondary to process",
-      "cross_links": ["B012", "G003", "L001"]
+      "cross_links": [
+        "B012",
+        "G003",
+        "L001"
+      ],
+      "understanding": null
     },
     {
       "id": "B014",
@@ -472,7 +658,12 @@
       "concept": "Emotional Process",
       "difficulty": 3,
       "intent": "Individual calmness ripples through system; differentiation moves others",
-      "cross_links": ["B001", "B003", "S001"]
+      "cross_links": [
+        "B001",
+        "B003",
+        "S001"
+      ],
+      "understanding": null
     },
     {
       "id": "B015",
@@ -484,7 +675,12 @@
       "concept": "Family System",
       "difficulty": 1,
       "intent": "Individual behavior unintelligible without system context",
-      "cross_links": ["B001", "B005", "B012"]
+      "cross_links": [
+        "B001",
+        "B005",
+        "B012"
+      ],
+      "understanding": null
     },
     {
       "id": "B016",
@@ -496,7 +692,12 @@
       "concept": "Fusion",
       "difficulty": 1,
       "intent": "Define fusion: emotional entanglement and loss of boundaries",
-      "cross_links": ["B001", "B010", "B016"]
+      "cross_links": [
+        "B001",
+        "B010",
+        "B016"
+      ],
+      "understanding": null
     },
     {
       "id": "B017",
@@ -508,7 +709,12 @@
       "concept": "Fusion",
       "difficulty": 2,
       "intent": "Fusion blocks self-responsibility; blaming replaces agency",
-      "cross_links": ["B016", "J018", "S044"]
+      "cross_links": [
+        "B016",
+        "J018",
+        "S044"
+      ],
+      "understanding": null
     },
     {
       "id": "B018",
@@ -520,7 +726,12 @@
       "concept": "Differentiation",
       "difficulty": 2,
       "intent": "Agency: differentiation work is individual choice, not dependent on others",
-      "cross_links": ["B001", "B003", "S007"]
+      "cross_links": [
+        "B001",
+        "B003",
+        "S007"
+      ],
+      "understanding": null
     },
     {
       "id": "B019",
@@ -532,7 +743,12 @@
       "concept": "Projection",
       "difficulty": 1,
       "intent": "Bowen's systems view of projection: relationship mechanism",
-      "cross_links": ["J018", "B020", "L004"]
+      "cross_links": [
+        "J018",
+        "B020",
+        "L004"
+      ],
+      "understanding": null
     },
     {
       "id": "B020",
@@ -543,8 +759,13 @@
       "text": "The less differentiated the parents, the more likely they are to focus on one child as the problem.",
       "concept": "Projection",
       "difficulty": 2,
-      "intent": "Low differentiation → symptom bearer identified in child",
-      "cross_links": ["B019", "B021", "B024"]
+      "intent": "Low differentiation \u2192 symptom bearer identified in child",
+      "cross_links": [
+        "B019",
+        "B021",
+        "B024"
+      ],
+      "understanding": null
     },
     {
       "id": "B021",
@@ -556,7 +777,12 @@
       "concept": "Projection",
       "difficulty": 2,
       "intent": "Symptom bearer distinguished from actual system dysfunction",
-      "cross_links": ["B020", "B022", "L004"]
+      "cross_links": [
+        "B020",
+        "B022",
+        "L004"
+      ],
+      "understanding": null
     },
     {
       "id": "B022",
@@ -568,7 +794,12 @@
       "concept": "Projection",
       "difficulty": 2,
       "intent": "Intergenerational projection: family passes problems to next generation",
-      "cross_links": ["B020", "B021", "B024"]
+      "cross_links": [
+        "B020",
+        "B021",
+        "B024"
+      ],
+      "understanding": null
     },
     {
       "id": "B023",
@@ -580,7 +811,12 @@
       "concept": "Multigenerational Transmission",
       "difficulty": 2,
       "intent": "Differentiation level inherited; patterns transmit across generations",
-      "cross_links": ["B024", "B025", "J005"]
+      "cross_links": [
+        "B024",
+        "B025",
+        "J005"
+      ],
+      "understanding": null
     },
     {
       "id": "B024",
@@ -592,7 +828,12 @@
       "concept": "Multigenerational Transmission",
       "difficulty": 2,
       "intent": "Stress intensifies transmission; emotional heat drives intergenerational patterns",
-      "cross_links": ["B023", "B025", "B012"]
+      "cross_links": [
+        "B023",
+        "B025",
+        "B012"
+      ],
+      "understanding": null
     },
     {
       "id": "B025",
@@ -604,7 +845,12 @@
       "concept": "Multigenerational Transmission",
       "difficulty": 3,
       "intent": "Pattern reversal requires long-term sustained effort; one person can start it",
-      "cross_links": ["B023", "B024", "B014"]
+      "cross_links": [
+        "B023",
+        "B024",
+        "B014"
+      ],
+      "understanding": null
     },
     {
       "id": "B026",
@@ -616,7 +862,11 @@
       "concept": "Family System",
       "difficulty": 1,
       "intent": "Nuclear family as repeating unit of emotional system",
-      "cross_links": ["B015", "B023"]
+      "cross_links": [
+        "B015",
+        "B023"
+      ],
+      "understanding": null
     },
     {
       "id": "B027",
@@ -628,7 +878,11 @@
       "concept": "Family System",
       "difficulty": 1,
       "intent": "Extended family as container/influence on nuclear system",
-      "cross_links": ["B026", "B015"]
+      "cross_links": [
+        "B026",
+        "B015"
+      ],
+      "understanding": null
     },
     {
       "id": "B028",
@@ -640,7 +894,12 @@
       "concept": "Emotional Process",
       "difficulty": 2,
       "intent": "System anxiety distributes across somatic, emotional, behavioral channels",
-      "cross_links": ["B012", "B024", "B028"]
+      "cross_links": [
+        "B012",
+        "B024",
+        "B028"
+      ],
+      "understanding": null
     },
     {
       "id": "B029",
@@ -652,7 +911,12 @@
       "concept": "Differentiation",
       "difficulty": 2,
       "intent": "Higher differentiation shifts system automatically; no need to fix others",
-      "cross_links": ["B001", "B014", "B018"]
+      "cross_links": [
+        "B001",
+        "B014",
+        "B018"
+      ],
+      "understanding": null
     },
     {
       "id": "B030",
@@ -664,7 +928,12 @@
       "concept": "Differentiation",
       "difficulty": 1,
       "intent": "Individual work is sufficient; doesn't require system cooperation",
-      "cross_links": ["B018", "B029", "S007"]
+      "cross_links": [
+        "B018",
+        "B029",
+        "S007"
+      ],
+      "understanding": null
     },
     {
       "id": "S001",
@@ -672,11 +941,16 @@
       "author": "Marcus Aurelius",
       "source": "Meditations",
       "page": 5,
-      "text": "You have power over your mind—not outside events. Realize this, and you will find strength.",
+      "text": "You have power over your mind\u2014not outside events. Realize this, and you will find strength.",
       "concept": "Dichotomy of Control",
       "difficulty": 1,
       "intent": "Foundation: only mind is in your control, not external events",
-      "cross_links": ["S002", "S003", "B001"]
+      "cross_links": [
+        "S002",
+        "S003",
+        "B001"
+      ],
+      "understanding": null
     },
     {
       "id": "S002",
@@ -688,7 +962,12 @@
       "concept": "Dichotomy of Control",
       "difficulty": 2,
       "intent": "Obstacles are within your control; they become fuel",
-      "cross_links": ["S001", "S011", "F001"]
+      "cross_links": [
+        "S001",
+        "S011",
+        "F001"
+      ],
+      "understanding": null
     },
     {
       "id": "S003",
@@ -700,7 +979,12 @@
       "concept": "Dichotomy of Control",
       "difficulty": 2,
       "intent": "Full categorization of what is/isn't controllable",
-      "cross_links": ["S001", "S002", "S044"]
+      "cross_links": [
+        "S001",
+        "S002",
+        "S044"
+      ],
+      "understanding": null
     },
     {
       "id": "S004",
@@ -708,11 +992,16 @@
       "author": "Marcus Aurelius",
       "source": "Meditations",
       "page": 87,
-      "text": "It can ruin your life only if it ruins your character. Otherwise it cannot harm you—inside or out.",
+      "text": "It can ruin your life only if it ruins your character. Otherwise it cannot harm you\u2014inside or out.",
       "concept": "Dichotomy of Control",
       "difficulty": 2,
       "intent": "External harm is irrelevant if character remains intact",
-      "cross_links": ["S001", "S006", "L005"]
+      "cross_links": [
+        "S001",
+        "S006",
+        "L005"
+      ],
+      "understanding": null
     },
     {
       "id": "S005",
@@ -724,7 +1013,12 @@
       "concept": "Assent/Judgment",
       "difficulty": 1,
       "intent": "Suffering arises from judgment, not event; control the judgment",
-      "cross_links": ["S006", "S044", "F002"]
+      "cross_links": [
+        "S006",
+        "S044",
+        "F002"
+      ],
+      "understanding": null
     },
     {
       "id": "S006",
@@ -736,7 +1030,12 @@
       "concept": "Assent/Judgment",
       "difficulty": 1,
       "intent": "Events neutral; judgment creates disturbance",
-      "cross_links": ["S005", "S007", "S008"]
+      "cross_links": [
+        "S005",
+        "S007",
+        "S008"
+      ],
+      "understanding": null
     },
     {
       "id": "S007",
@@ -748,7 +1047,12 @@
       "concept": "Assent/Judgment",
       "difficulty": 2,
       "intent": "Assent is voluntary; you can withdraw it from any impression",
-      "cross_links": ["S006", "S009", "B018"]
+      "cross_links": [
+        "S006",
+        "S009",
+        "B018"
+      ],
+      "understanding": null
     },
     {
       "id": "S008",
@@ -760,7 +1064,12 @@
       "concept": "Assent/Judgment",
       "difficulty": 2,
       "intent": "Emotions arise naturally; wisdom is selective assent",
-      "cross_links": ["S006", "S007", "S045"]
+      "cross_links": [
+        "S006",
+        "S007",
+        "S045"
+      ],
+      "understanding": null
     },
     {
       "id": "S009",
@@ -772,7 +1081,12 @@
       "concept": "Virtue",
       "difficulty": 2,
       "intent": "Virtue is self-justifying; external approval irrelevant",
-      "cross_links": ["S010", "S006", "L005"]
+      "cross_links": [
+        "S010",
+        "S006",
+        "L005"
+      ],
+      "understanding": null
     },
     {
       "id": "S010",
@@ -784,7 +1098,12 @@
       "concept": "Virtue",
       "difficulty": 1,
       "intent": "Axiom: only virtue/vice morally significant",
-      "cross_links": ["S009", "S011", "F007"]
+      "cross_links": [
+        "S009",
+        "S011",
+        "F007"
+      ],
+      "understanding": null
     },
     {
       "id": "S011",
@@ -796,7 +1115,12 @@
       "concept": "Virtue",
       "difficulty": 2,
       "intent": "Virtue as non-participation in collective emotional reactivity",
-      "cross_links": ["S010", "S002", "B014"]
+      "cross_links": [
+        "S010",
+        "S002",
+        "B014"
+      ],
+      "understanding": null
     },
     {
       "id": "S012",
@@ -804,11 +1128,16 @@
       "author": "Seneca",
       "source": "Letters from a Stoic",
       "page": 48,
-      "text": "Virtue is the only thing worth valuing. Everything else—health, property, reputation—is indifferent unless it serves virtue.",
+      "text": "Virtue is the only thing worth valuing. Everything else\u2014health, property, reputation\u2014is indifferent unless it serves virtue.",
       "concept": "Virtue",
       "difficulty": 2,
       "intent": "Virtue as sole intrinsic good; all else instrumental",
-      "cross_links": ["S010", "S011", "J003"]
+      "cross_links": [
+        "S010",
+        "S011",
+        "J003"
+      ],
+      "understanding": null
     },
     {
       "id": "S013",
@@ -816,11 +1145,16 @@
       "author": "Marcus Aurelius",
       "source": "Meditations",
       "page": 78,
-      "text": "Amor fati—love of fate. Do not just accept the inevitable; love it.",
+      "text": "Amor fati\u2014love of fate. Do not just accept the inevitable; love it.",
       "concept": "Amor Fati",
       "difficulty": 2,
       "intent": "Transform acceptance into love; active embrace of necessity",
-      "cross_links": ["S014", "S015", "F003"]
+      "cross_links": [
+        "S014",
+        "S015",
+        "F003"
+      ],
+      "understanding": null
     },
     {
       "id": "S014",
@@ -832,7 +1166,12 @@
       "concept": "Amor Fati",
       "difficulty": 2,
       "intent": "Given circumstances as material for virtue; optimize within constraint",
-      "cross_links": ["S013", "S015", "S002"]
+      "cross_links": [
+        "S013",
+        "S015",
+        "S002"
+      ],
+      "understanding": null
     },
     {
       "id": "S015",
@@ -844,7 +1183,12 @@
       "concept": "Amor Fati",
       "difficulty": 2,
       "intent": "Transmute adversity into fuel; virtue as alchemical process",
-      "cross_links": ["S013", "S014", "S002"]
+      "cross_links": [
+        "S013",
+        "S014",
+        "S002"
+      ],
+      "understanding": null
     },
     {
       "id": "S016",
@@ -856,7 +1200,12 @@
       "concept": "Apatheia",
       "difficulty": 2,
       "intent": "Freedom through reduction of want, not satisfaction of want",
-      "cross_links": ["S017", "S044", "B001"]
+      "cross_links": [
+        "S017",
+        "S044",
+        "B001"
+      ],
+      "understanding": null
     },
     {
       "id": "S017",
@@ -868,7 +1217,12 @@
       "concept": "Apatheia",
       "difficulty": 2,
       "intent": "Apatheia as clarity, not callousness; emotional freedom not emotional death",
-      "cross_links": ["S016", "S018", "S006"]
+      "cross_links": [
+        "S016",
+        "S018",
+        "S006"
+      ],
+      "understanding": null
     },
     {
       "id": "S018",
@@ -880,7 +1234,12 @@
       "concept": "Preparation",
       "difficulty": 2,
       "intent": "Premeditation of adversity reduces its impact",
-      "cross_links": ["S017", "S019", "F005"]
+      "cross_links": [
+        "S017",
+        "S019",
+        "F005"
+      ],
+      "understanding": null
     },
     {
       "id": "S019",
@@ -892,7 +1251,12 @@
       "concept": "Preparation",
       "difficulty": 2,
       "intent": "Obstacles reveal opportunity; adversity as teacher",
-      "cross_links": ["S018", "S002", "S014"]
+      "cross_links": [
+        "S018",
+        "S002",
+        "S014"
+      ],
+      "understanding": null
     },
     {
       "id": "S020",
@@ -904,7 +1268,12 @@
       "concept": "Duty",
       "difficulty": 1,
       "intent": "Axiom: duty as moral foundation",
-      "cross_links": ["S021", "S022", "F008"]
+      "cross_links": [
+        "S021",
+        "S022",
+        "F008"
+      ],
+      "understanding": null
     },
     {
       "id": "S021",
@@ -916,7 +1285,12 @@
       "concept": "Duty",
       "difficulty": 2,
       "intent": "Alignment of will with reality; acceptance as duty",
-      "cross_links": ["S020", "S013", "S022"]
+      "cross_links": [
+        "S020",
+        "S013",
+        "S022"
+      ],
+      "understanding": null
     },
     {
       "id": "S022",
@@ -928,7 +1302,12 @@
       "concept": "Duty",
       "difficulty": 2,
       "intent": "Duty as knowledge + action alignment",
-      "cross_links": ["S020", "S021", "S023"]
+      "cross_links": [
+        "S020",
+        "S021",
+        "S023"
+      ],
+      "understanding": null
     },
     {
       "id": "S023",
@@ -940,7 +1319,12 @@
       "concept": "Action",
       "difficulty": 1,
       "intent": "Prevention through early action; don't wait for crisis",
-      "cross_links": ["S022", "S018", "S002"]
+      "cross_links": [
+        "S022",
+        "S018",
+        "S002"
+      ],
+      "understanding": null
     },
     {
       "id": "S024",
@@ -952,7 +1336,12 @@
       "concept": "Cosmopolitanism",
       "difficulty": 1,
       "intent": "Natural interdependence; cooperation as ontological fact",
-      "cross_links": ["S025", "S026", "B015"]
+      "cross_links": [
+        "S025",
+        "S026",
+        "B015"
+      ],
+      "understanding": null
     },
     {
       "id": "S025",
@@ -964,7 +1353,12 @@
       "concept": "Cosmopolitanism",
       "difficulty": 2,
       "intent": "Allegiance to humanity, not tribe; universal ethical scope",
-      "cross_links": ["S024", "S026", "S011"]
+      "cross_links": [
+        "S024",
+        "S026",
+        "S011"
+      ],
+      "understanding": null
     },
     {
       "id": "S026",
@@ -976,7 +1370,12 @@
       "concept": "Cosmopolitanism",
       "difficulty": 1,
       "intent": "Kinship as basis for ethics across tribe/status boundaries",
-      "cross_links": ["S024", "S025", "S022"]
+      "cross_links": [
+        "S024",
+        "S025",
+        "S022"
+      ],
+      "understanding": null
     },
     {
       "id": "S027",
@@ -988,7 +1387,12 @@
       "concept": "Reason",
       "difficulty": 2,
       "intent": "Reason as alignment mechanism; flourishing follows alignment",
-      "cross_links": ["S028", "S029", "J014"]
+      "cross_links": [
+        "S028",
+        "S029",
+        "J014"
+      ],
+      "understanding": null
     },
     {
       "id": "S028",
@@ -1000,7 +1404,12 @@
       "concept": "Reason",
       "difficulty": 2,
       "intent": "Reason makes value; externals neutral until judged",
-      "cross_links": ["S027", "S029", "S006"]
+      "cross_links": [
+        "S027",
+        "S029",
+        "S006"
+      ],
+      "understanding": null
     },
     {
       "id": "S029",
@@ -1012,7 +1421,12 @@
       "concept": "Reason",
       "difficulty": 1,
       "intent": "Reason as human excellence; cultivate it above all",
-      "cross_links": ["S027", "S028", "S010"]
+      "cross_links": [
+        "S027",
+        "S028",
+        "S010"
+      ],
+      "understanding": null
     },
     {
       "id": "S030",
@@ -1024,7 +1438,12 @@
       "concept": "Change",
       "difficulty": 2,
       "intent": "Change as fundamental; mind shapes experience of change",
-      "cross_links": ["S031", "S005", "J014"]
+      "cross_links": [
+        "S031",
+        "S005",
+        "J014"
+      ],
+      "understanding": null
     },
     {
       "id": "S031",
@@ -1036,7 +1455,12 @@
       "concept": "Change",
       "difficulty": 2,
       "intent": "Non-resistance to change; flow as mastery",
-      "cross_links": ["S030", "S013", "S015"]
+      "cross_links": [
+        "S030",
+        "S013",
+        "S015"
+      ],
+      "understanding": null
     },
     {
       "id": "S032",
@@ -1044,11 +1468,16 @@
       "author": "Marcus Aurelius",
       "source": "Meditations",
       "page": 141,
-      "text": "When you arise in the morning, think of what a precious privilege it is to be alive—to breathe, to think, to enjoy, to love.",
+      "text": "When you arise in the morning, think of what a precious privilege it is to be alive\u2014to breathe, to think, to enjoy, to love.",
       "concept": "Gratitude",
       "difficulty": 1,
       "intent": "Gratitude as foundational practice; life as privilege",
-      "cross_links": ["S033", "S013", "S031"]
+      "cross_links": [
+        "S033",
+        "S013",
+        "S031"
+      ],
+      "understanding": null
     },
     {
       "id": "S033",
@@ -1060,7 +1489,12 @@
       "concept": "Gratitude",
       "difficulty": 1,
       "intent": "Gratitude as measure of wisdom",
-      "cross_links": ["S032", "S027", "J015"]
+      "cross_links": [
+        "S032",
+        "S027",
+        "J015"
+      ],
+      "understanding": null
     },
     {
       "id": "S034",
@@ -1072,7 +1506,12 @@
       "concept": "Self-Sufficiency",
       "difficulty": 2,
       "intent": "Everything necessary for flourishing is internal; freedom through self-reliance",
-      "cross_links": ["S035", "S001", "J009"]
+      "cross_links": [
+        "S035",
+        "S001",
+        "J009"
+      ],
+      "understanding": null
     },
     {
       "id": "S035",
@@ -1084,7 +1523,12 @@
       "concept": "Self-Sufficiency",
       "difficulty": 2,
       "intent": "Harm requires assent; self-protection through judgment",
-      "cross_links": ["S034", "S006", "S007"]
+      "cross_links": [
+        "S034",
+        "S006",
+        "S007"
+      ],
+      "understanding": null
     },
     {
       "id": "S036",
@@ -1096,7 +1540,12 @@
       "concept": "Equanimity",
       "difficulty": 2,
       "intent": "Equanimity before death; smiling as psychological stance",
-      "cross_links": ["S037", "S013", "F005"]
+      "cross_links": [
+        "S037",
+        "S013",
+        "F005"
+      ],
+      "understanding": null
     },
     {
       "id": "S037",
@@ -1108,7 +1557,12 @@
       "concept": "Equanimity",
       "difficulty": 2,
       "intent": "Mortality awareness as key to wisdom; death as teacher",
-      "cross_links": ["S036", "F005", "S013"]
+      "cross_links": [
+        "S036",
+        "F005",
+        "S013"
+      ],
+      "understanding": null
     },
     {
       "id": "S038",
@@ -1116,11 +1570,16 @@
       "author": "Marcus Aurelius",
       "source": "Meditations",
       "page": 162,
-      "text": "You have power over your mind—not outside events. Realize this, and you will find strength.",
+      "text": "You have power over your mind\u2014not outside events. Realize this, and you will find strength.",
       "concept": "Power",
       "difficulty": 1,
       "intent": "Reiteration: internal power is ultimate power",
-      "cross_links": ["S001", "S007", "S034"]
+      "cross_links": [
+        "S001",
+        "S007",
+        "S034"
+      ],
+      "understanding": null
     },
     {
       "id": "S039",
@@ -1132,7 +1591,12 @@
       "concept": "Character",
       "difficulty": 1,
       "intent": "Character as intentional construction; choice precedes action",
-      "cross_links": ["S040", "S010", "J003"]
+      "cross_links": [
+        "S040",
+        "S010",
+        "J003"
+      ],
+      "understanding": null
     },
     {
       "id": "S040",
@@ -1144,7 +1608,12 @@
       "concept": "Character",
       "difficulty": 2,
       "intent": "Character as belief-driven; beliefs are choice",
-      "cross_links": ["S039", "S007", "S006"]
+      "cross_links": [
+        "S039",
+        "S007",
+        "S006"
+      ],
+      "understanding": null
     },
     {
       "id": "S041",
@@ -1156,7 +1625,12 @@
       "concept": "Discipline",
       "difficulty": 1,
       "intent": "Thought-discipline as practice; vigilance required",
-      "cross_links": ["S042", "S007", "S039"]
+      "cross_links": [
+        "S042",
+        "S007",
+        "S039"
+      ],
+      "understanding": null
     },
     {
       "id": "S042",
@@ -1168,7 +1642,12 @@
       "concept": "Discipline",
       "difficulty": 2,
       "intent": "Paradox: discipline liberates; freedom through mastery",
-      "cross_links": ["S041", "S016", "B001"]
+      "cross_links": [
+        "S041",
+        "S016",
+        "B001"
+      ],
+      "understanding": null
     },
     {
       "id": "S043",
@@ -1180,7 +1659,12 @@
       "concept": "Action",
       "difficulty": 1,
       "intent": "Philosophy only matters in action; praxis required",
-      "cross_links": ["S044", "S023", "S041"]
+      "cross_links": [
+        "S044",
+        "S023",
+        "S041"
+      ],
+      "understanding": null
     },
     {
       "id": "S044",
@@ -1192,7 +1676,12 @@
       "concept": "Dichotomy of Control",
       "difficulty": 1,
       "intent": "Reiteration: focus on what you control; release what you don't",
-      "cross_links": ["S001", "S003", "B001"]
+      "cross_links": [
+        "S001",
+        "S003",
+        "B001"
+      ],
+      "understanding": null
     },
     {
       "id": "S045",
@@ -1204,7 +1693,12 @@
       "concept": "Character",
       "difficulty": 2,
       "intent": "Love + truth as twin pillars of virtue",
-      "cross_links": ["S040", "J002", "S026"]
+      "cross_links": [
+        "S040",
+        "J002",
+        "S026"
+      ],
+      "understanding": null
     },
     {
       "id": "S046",
@@ -1216,7 +1710,12 @@
       "concept": "Obstacle",
       "difficulty": 2,
       "intent": "Obstacle as creative material; transmutation through mind",
-      "cross_links": ["S002", "S014", "S015"]
+      "cross_links": [
+        "S002",
+        "S014",
+        "S015"
+      ],
+      "understanding": null
     },
     {
       "id": "S047",
@@ -1228,7 +1727,12 @@
       "concept": "Choice",
       "difficulty": 1,
       "intent": "Engagement as choice; always available",
-      "cross_links": ["S001", "S007", "B007"]
+      "cross_links": [
+        "S001",
+        "S007",
+        "B007"
+      ],
+      "understanding": null
     },
     {
       "id": "S048",
@@ -1240,7 +1744,12 @@
       "concept": "Adversity",
       "difficulty": 2,
       "intent": "Adversity as pedagogical; profit through learning",
-      "cross_links": ["S002", "S014", "F003"]
+      "cross_links": [
+        "S002",
+        "S014",
+        "F003"
+      ],
+      "understanding": null
     },
     {
       "id": "S049",
@@ -1252,7 +1761,12 @@
       "concept": "Response",
       "difficulty": 1,
       "intent": "Agency in response; circumstance-independence",
-      "cross_links": ["S001", "S006", "B007"]
+      "cross_links": [
+        "S001",
+        "S006",
+        "B007"
+      ],
+      "understanding": null
     },
     {
       "id": "S050",
@@ -1264,7 +1778,12 @@
       "concept": "Action",
       "difficulty": 1,
       "intent": "Being over thinking; practice over theory",
-      "cross_links": ["S043", "S047", "J015"]
+      "cross_links": [
+        "S043",
+        "S047",
+        "J015"
+      ],
+      "understanding": null
     },
     {
       "id": "G001",
@@ -1276,7 +1795,12 @@
       "concept": "Mechanical Reaction",
       "difficulty": 2,
       "intent": "Foundation: humans run automatic programs; consciousness absent",
-      "cross_links": ["G002", "G003", "J007"]
+      "cross_links": [
+        "G002",
+        "G003",
+        "J007"
+      ],
+      "understanding": null
     },
     {
       "id": "G002",
@@ -1288,7 +1812,12 @@
       "concept": "Mechanical Reaction",
       "difficulty": 2,
       "intent": "No unified self; mechanical switching of personalities",
-      "cross_links": ["G001", "J003", "L001"]
+      "cross_links": [
+        "G001",
+        "J003",
+        "L001"
+      ],
+      "understanding": null
     },
     {
       "id": "G003",
@@ -1300,7 +1829,12 @@
       "concept": "Being-Doing Gap",
       "difficulty": 2,
       "intent": "Knowledge alone insufficient; being/practice required for transformation",
-      "cross_links": ["G004", "G005", "F007"]
+      "cross_links": [
+        "G004",
+        "G005",
+        "F007"
+      ],
+      "understanding": null
     },
     {
       "id": "G004",
@@ -1312,7 +1846,12 @@
       "concept": "Conscious Labor",
       "difficulty": 2,
       "intent": "Change requires active effort and voluntary hardship; passive insight fails",
-      "cross_links": ["G003", "G005", "S042"]
+      "cross_links": [
+        "G003",
+        "G005",
+        "S042"
+      ],
+      "understanding": null
     },
     {
       "id": "G005",
@@ -1323,8 +1862,13 @@
       "text": "To change, a man must become aware of his mechanical behavior. Awareness alone does not change it. He must work against it.",
       "concept": "Conscious Labor",
       "difficulty": 3,
-      "intent": "Awareness ≠ change; effort against mechanical patterns required",
-      "cross_links": ["G004", "J004", "B012"]
+      "intent": "Awareness \u2260 change; effort against mechanical patterns required",
+      "cross_links": [
+        "G004",
+        "J004",
+        "B012"
+      ],
+      "understanding": null
     },
     {
       "id": "G006",
@@ -1336,7 +1880,12 @@
       "concept": "Real I",
       "difficulty": 2,
       "intent": "True self buried under mechanical personas; requires excavation",
-      "cross_links": ["G002", "J008", "J003"]
+      "cross_links": [
+        "G002",
+        "J008",
+        "J003"
+      ],
+      "understanding": null
     },
     {
       "id": "G007",
@@ -1348,7 +1897,12 @@
       "concept": "Awakening",
       "difficulty": 3,
       "intent": "Birth (consciousness) requires dying (letting go); awakening precedes both",
-      "cross_links": ["G006", "G004", "J010"]
+      "cross_links": [
+        "G006",
+        "G004",
+        "J010"
+      ],
+      "understanding": null
     },
     {
       "id": "G008",
@@ -1360,7 +1914,12 @@
       "concept": "Being-Doing Gap",
       "difficulty": 2,
       "intent": "Being > knowledge; personality is false construct",
-      "cross_links": ["G003", "G006", "J009"]
+      "cross_links": [
+        "G003",
+        "G006",
+        "J009"
+      ],
+      "understanding": null
     },
     {
       "id": "F001",
@@ -1368,11 +1927,16 @@
       "author": "Viktor Frankl",
       "source": "Man's Search for Meaning",
       "page": 63,
-      "text": "Everything can be taken from a man but one thing: the last of the human freedoms—to choose one's attitude in any given set of circumstances.",
+      "text": "Everything can be taken from a man but one thing: the last of the human freedoms\u2014to choose one's attitude in any given set of circumstances.",
       "concept": "Freedom of Attitude",
       "difficulty": 1,
       "intent": "Foundation: attitude choice is irrevocable freedom; circumstance-independent",
-      "cross_links": ["F002", "F003", "S001"]
+      "cross_links": [
+        "F002",
+        "F003",
+        "S001"
+      ],
+      "understanding": null
     },
     {
       "id": "F002",
@@ -1384,7 +1948,12 @@
       "concept": "Meaning-Making",
       "difficulty": 1,
       "intent": "Constraint as opportunity for self-change and meaning discovery",
-      "cross_links": ["F001", "F003", "S013"]
+      "cross_links": [
+        "F001",
+        "F003",
+        "S013"
+      ],
+      "understanding": null
     },
     {
       "id": "F003",
@@ -1396,7 +1965,12 @@
       "concept": "Meaning-Making",
       "difficulty": 2,
       "intent": "Meaning as response-to; active engagement with life's demands",
-      "cross_links": ["F002", "F004", "S043"]
+      "cross_links": [
+        "F002",
+        "F004",
+        "S043"
+      ],
+      "understanding": null
     },
     {
       "id": "F004",
@@ -1408,7 +1982,12 @@
       "concept": "Meaning-Making",
       "difficulty": 2,
       "intent": "Meaning is concrete, situational, variable; not abstract universal",
-      "cross_links": ["F003", "F005", "J010"]
+      "cross_links": [
+        "F003",
+        "F005",
+        "J010"
+      ],
+      "understanding": null
     },
     {
       "id": "F005",
@@ -1420,7 +1999,12 @@
       "concept": "Suffering as Opportunity",
       "difficulty": 2,
       "intent": "Meaning transmutes suffering; psychological alchemy",
-      "cross_links": ["F003", "F006", "S015"]
+      "cross_links": [
+        "F003",
+        "F006",
+        "S015"
+      ],
+      "understanding": null
     },
     {
       "id": "F006",
@@ -1432,7 +2016,12 @@
       "concept": "Meaning-Making",
       "difficulty": 1,
       "intent": "Meaning-first principle; happiness as secondary effect",
-      "cross_links": ["F005", "F004", "S045"]
+      "cross_links": [
+        "F005",
+        "F004",
+        "S045"
+      ],
+      "understanding": null
     },
     {
       "id": "F007",
@@ -1444,7 +2033,12 @@
       "concept": "Logotherapy",
       "difficulty": 2,
       "intent": "Forward-looking therapy; future-meaning over past-cause",
-      "cross_links": ["F008", "F003", "S021"]
+      "cross_links": [
+        "F008",
+        "F003",
+        "S021"
+      ],
+      "understanding": null
     },
     {
       "id": "F008",
@@ -1456,7 +2050,12 @@
       "concept": "Responsibility",
       "difficulty": 2,
       "intent": "Responsibility as intrinsic; we create meaning through choice",
-      "cross_links": ["F007", "F001", "S022"]
+      "cross_links": [
+        "F007",
+        "F001",
+        "S022"
+      ],
+      "understanding": null
     },
     {
       "id": "F009",
@@ -1468,7 +2067,12 @@
       "concept": "Meaning-Making",
       "difficulty": 1,
       "intent": "Meaninglessness as existential catastrophe; meaning as prerequisite",
-      "cross_links": ["F006", "F004", "L002"]
+      "cross_links": [
+        "F006",
+        "F004",
+        "L002"
+      ],
+      "understanding": null
     },
     {
       "id": "F010",
@@ -1480,7 +2084,12 @@
       "concept": "Meaning-Making",
       "difficulty": 1,
       "intent": "Happiness-pursuit paradox; meaning as proper aim",
-      "cross_links": ["F006", "F001", "S013"]
+      "cross_links": [
+        "F006",
+        "F001",
+        "S013"
+      ],
+      "understanding": null
     },
     {
       "id": "L001",
@@ -1492,7 +2101,12 @@
       "concept": "Authenticity",
       "difficulty": 1,
       "intent": "Being determines behavior; alienation from being = dysfunction",
-      "cross_links": ["L002", "L003", "G002"]
+      "cross_links": [
+        "L002",
+        "L003",
+        "G002"
+      ],
+      "understanding": null
     },
     {
       "id": "L002",
@@ -1503,8 +2117,13 @@
       "text": "When the individual has lost touch with his own being, he experiences others as unreal.",
       "concept": "Divided Self",
       "difficulty": 2,
-      "intent": "Self-alienation → other-alienation; loop of unreality",
-      "cross_links": ["L001", "L003", "J020"]
+      "intent": "Self-alienation \u2192 other-alienation; loop of unreality",
+      "cross_links": [
+        "L001",
+        "L003",
+        "J020"
+      ],
+      "understanding": null
     },
     {
       "id": "L003",
@@ -1516,7 +2135,12 @@
       "concept": "Divided Self",
       "difficulty": 2,
       "intent": "False self as defense; adaptive initially, becomes prison",
-      "cross_links": ["L002", "L004", "J003"]
+      "cross_links": [
+        "L002",
+        "L004",
+        "J003"
+      ],
+      "understanding": null
     },
     {
       "id": "L004",
@@ -1528,7 +2152,12 @@
       "concept": "Mystification",
       "difficulty": 1,
       "intent": "Define mystification: systematic confusion as control mechanism",
-      "cross_links": ["L005", "L006", "B020"]
+      "cross_links": [
+        "L005",
+        "L006",
+        "B020"
+      ],
+      "understanding": null
     },
     {
       "id": "L005",
@@ -1540,7 +2169,12 @@
       "concept": "Mystification",
       "difficulty": 2,
       "intent": "Mystification as family mechanism; maintains fusion",
-      "cross_links": ["L004", "B016", "B020"]
+      "cross_links": [
+        "L004",
+        "B016",
+        "B020"
+      ],
+      "understanding": null
     },
     {
       "id": "L006",
@@ -1551,8 +2185,13 @@
       "text": "Sanity may not be statistical normality. The normal person may be insane in the existential sense.",
       "concept": "Authenticity",
       "difficulty": 2,
-      "intent": "Normality ≠ health; conformity may mask existential death",
-      "cross_links": ["L001", "L003", "L007"]
+      "intent": "Normality \u2260 health; conformity may mask existential death",
+      "cross_links": [
+        "L001",
+        "L003",
+        "L007"
+      ],
+      "understanding": null
     },
     {
       "id": "L007",
@@ -1564,7 +2203,12 @@
       "concept": "Social Control",
       "difficulty": 2,
       "intent": "Sanity as collective denial; conformity requires blindness",
-      "cross_links": ["L006", "L004", "L002"]
+      "cross_links": [
+        "L006",
+        "L004",
+        "L002"
+      ],
+      "understanding": null
     },
     {
       "id": "L008",
@@ -1576,7 +2220,12 @@
       "concept": "Divided Self",
       "difficulty": 2,
       "intent": "Unreality as disconnection from being; not reality loss",
-      "cross_links": ["L001", "L002", "L003"]
+      "cross_links": [
+        "L001",
+        "L002",
+        "L003"
+      ],
+      "understanding": null
     },
     {
       "id": "L009",
@@ -1588,7 +2237,12 @@
       "concept": "Authenticity",
       "difficulty": 2,
       "intent": "Authenticity as courageous resistance; not passive default",
-      "cross_links": ["L006", "L001", "J003"]
+      "cross_links": [
+        "L006",
+        "L001",
+        "J003"
+      ],
+      "understanding": null
     },
     {
       "id": "RU001",
@@ -1600,7 +2254,12 @@
       "concept": "Shadow Manifestation",
       "difficulty": 2,
       "intent": "Shadow rejection leads to splitting; neither acceptance nor integration",
-      "cross_links": ["J004", "L002", "G001"]
+      "cross_links": [
+        "J004",
+        "L002",
+        "G001"
+      ],
+      "understanding": null
     },
     {
       "id": "RU002",
@@ -1612,7 +2271,12 @@
       "concept": "Moral Choice Under Constraint",
       "difficulty": 2,
       "intent": "Responsibility is the gate; evasion is where shadow rules",
-      "cross_links": ["F008", "S022", "L006"]
+      "cross_links": [
+        "F008",
+        "S022",
+        "L006"
+      ],
+      "understanding": null
     },
     {
       "id": "RU003",
@@ -1624,7 +2288,12 @@
       "concept": "Shadow Manifestation",
       "difficulty": 3,
       "intent": "Shadow can be collective and ideological; disguises itself as virtue",
-      "cross_links": ["J005", "L007", "B020"]
+      "cross_links": [
+        "J005",
+        "L007",
+        "B020"
+      ],
+      "understanding": null
     },
     {
       "id": "RU004",
@@ -1636,7 +2305,12 @@
       "concept": "Anima Possession",
       "difficulty": 2,
       "intent": "Anima as overwhelming force until integrated through consciousness",
-      "cross_links": ["J013", "F005", "B012"]
+      "cross_links": [
+        "J013",
+        "F005",
+        "B012"
+      ],
+      "understanding": null
     },
     {
       "id": "RU005",
@@ -1648,7 +2322,12 @@
       "concept": "Archetypal Strength",
       "difficulty": 2,
       "intent": "Archetypal goodness transcends worldly power; different hierarchy",
-      "cross_links": ["J019", "S009", "S045"]
+      "cross_links": [
+        "J019",
+        "S009",
+        "S045"
+      ],
+      "understanding": null
     },
     {
       "id": "RU006",
@@ -1660,7 +2339,12 @@
       "concept": "Survival of Integrity",
       "difficulty": 2,
       "intent": "Consciousness + acceptance of reality = freedom despite constraint",
-      "cross_links": ["S001", "S013", "F001"]
+      "cross_links": [
+        "S001",
+        "S013",
+        "F001"
+      ],
+      "understanding": null
     },
     {
       "id": "RU007",
@@ -1672,7 +2356,12 @@
       "concept": "Meaning Under Constraint",
       "difficulty": 2,
       "intent": "Meaning-making as survival mechanism; dignity as practiced power",
-      "cross_links": ["F003", "F005", "B001"]
+      "cross_links": [
+        "F003",
+        "F005",
+        "B001"
+      ],
+      "understanding": null
     },
     {
       "id": "RU008",
@@ -1684,7 +2373,12 @@
       "concept": "Psychological Testimony",
       "difficulty": 2,
       "intent": "Constraint (mortality) strips away persona; reveals essential self",
-      "cross_links": ["S036", "J008", "F005"]
+      "cross_links": [
+        "S036",
+        "J008",
+        "F005"
+      ],
+      "understanding": null
     },
     {
       "id": "RU009",
@@ -1696,7 +2390,12 @@
       "concept": "Consciousness as Choice",
       "difficulty": 2,
       "intent": "Consciousness > comfort; humans value awareness even when painful",
-      "cross_links": ["J001", "L001", "F002"]
+      "cross_links": [
+        "J001",
+        "L001",
+        "F002"
+      ],
+      "understanding": null
     },
     {
       "id": "RU010",
@@ -1708,7 +2407,12 @@
       "concept": "Mystification as Violence",
       "difficulty": 2,
       "intent": "Psychological manipulation more damaging than physical harm",
-      "cross_links": ["L004", "L007", "B020"]
+      "cross_links": [
+        "L004",
+        "L007",
+        "B020"
+      ],
+      "understanding": null
     }
   ]
 }

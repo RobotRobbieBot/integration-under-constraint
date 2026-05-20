@@ -130,6 +130,13 @@ class IntegrationApp {
               <strong>Intent:</strong> ${passage.intent}
             </div>
 
+            ${passage.understanding ? `
+              <div class="passage-understanding" id="understanding-${passage.id}" style="display: none; background: var(--color-background-secondary); border-radius: 8px; padding: 12px; margin-top: 12px; font-size: 14px; line-height: 1.6;">
+                ${passage.understanding}
+              </div>
+              <button class="btn" onclick="const el = document.getElementById('understanding-${passage.id}'); el.style.display = el.style.display === 'none' ? 'block' : 'none'; this.textContent = el.style.display === 'none' ? 'Show Understanding' : 'Hide Understanding';" style="margin-top: 12px;">Show Understanding</button>
+            ` : ''}
+
             <div style="margin-top: var(--spacing-lg);">
               <label>Rate your comprehension:</label>
               <div class="rating-control">
