@@ -1,0 +1,2438 @@
+{
+  "metadata": {
+    "total_passages": 230,
+    "frameworks": 7,
+    "created": "2026-05-20",
+    "phase": "Phase 1 Content Curation Complete"
+  },
+  "passages": [
+    {
+      "id": "J001",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "Memories, Dreams, Reflections",
+      "page": 3,
+      "text": "Until you make the unconscious conscious, it will direct your life and you will call it fate.",
+      "concept": "Shadow",
+      "difficulty": 1,
+      "intent": "Foundation: unconscious forces shape behavior until integrated",
+      "cross_links": [
+        "J004",
+        "J005",
+        "B012"
+      ],
+      "understanding": {
+        "brief": "Unconscious forces drive behavior until made conscious.",
+        "medium": "The Shadow (Jung's term) is the part of yourself you don't acknowledge. These unconscious forces drive your choices until you make them conscious.",
+        "full": "The Shadow (Jung's term) is the part of yourself you don't acknowledge\u2014anger you suppress, ambition you deny, fear you hide. These unconscious forces still drive your choices. You blame circumstances (\"fate\") when really you're being controlled by what you won't look at. Making it conscious means seeing it, naming it, integrating it into your self-awareness."
+      }
+    },
+    {
+      "id": "J002",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "Psychology and Religion",
+      "page": 51,
+      "text": "The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, both are transformed.",
+      "concept": "Anima/Animus",
+      "difficulty": 1,
+      "intent": "Relational depth: genuine meeting transforms both",
+      "cross_links": [
+        "J013",
+        "B018",
+        "S045"
+      ],
+      "understanding": {
+        "brief": "Complexes are unconscious thought clusters that influence behavior.",
+        "medium": "Complexes are clusters of unconscious thoughts and feelings organized around a core theme. They're like mini-personalities running in the background.",
+        "full": "Complexes are clusters of unconscious thoughts and feelings organized around a core theme. They're like mini-personalities running in the background. You might have a \"father complex\" (unresolved feelings about authority) or a \"success complex\" (driving need to prove worth). They don't cause problems until you're unconscious of them."
+      }
+    },
+    {
+      "id": "J003",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "Two Essays on Analytical Psychology",
+      "page": 66,
+      "text": "The persona is that which in reality one is not, but which oneself as well as others think one is.",
+      "concept": "Persona",
+      "difficulty": 1,
+      "intent": "Define persona as social mask separate from true self",
+      "cross_links": [
+        "J008",
+        "L009",
+        "S012"
+      ],
+      "understanding": {
+        "brief": "Individuation is becoming your authentic self, not living others' scripts.",
+        "medium": "Individuation is Jung's term for becoming yourself. Not conforming to what parents/society expect, but discovering and living your actual nature.",
+        "full": "Individuation is Jung's term for becoming yourself. Not conforming to what parents/society expect, but discovering and living your actual nature. It's lifelong work. Most people never do it\u2014they live out scripts written by others."
+      }
+    },
+    {
+      "id": "J004",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "The Practice of Psychotherapy",
+      "page": 39,
+      "text": "There is no coming to consciousness without pain. People will do anything, no matter how absurd, in order to avoid facing their own Soul. One does not become enlightened by imagining figures of light, but by making the darkness conscious.",
+      "concept": "Shadow",
+      "difficulty": 2,
+      "intent": "Shadow integration requires facing darkness; cannot be bypassed through denial",
+      "cross_links": [
+        "J001",
+        "J009",
+        "G005"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J005",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "Aion",
+      "page": 20,
+      "text": "The shadow is that hidden, repressed, largely negative and guilt-laden personal side whose ultimate ramifications reach back into the mythological age.",
+      "concept": "Shadow",
+      "difficulty": 2,
+      "intent": "Shadow as personal + collective repression; genealogical roots",
+      "cross_links": [
+        "J001",
+        "B024",
+        "B025"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J006",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "The Structure and Dynamics of the Psyche",
+      "page": 8,
+      "text": "A complex is a collection of images and ideas clustered around a core feeling or emotion of personal tone.",
+      "concept": "Complexes",
+      "difficulty": 1,
+      "intent": "Define complex mechanism as emotionally-charged cluster",
+      "cross_links": [
+        "J007",
+        "G004",
+        "B012"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J007",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "The Structure and Dynamics of the Psyche",
+      "page": 97,
+      "text": "Complexes are autonomous psychic entities which, when activated, temporarily assume control of consciousness or impulse.",
+      "concept": "Complexes",
+      "difficulty": 2,
+      "intent": "Complexes as autonomous; consciousness subordinated when activated",
+      "cross_links": [
+        "J006",
+        "G003",
+        "G004"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J008",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "Psychology and Alchemy",
+      "page": 12,
+      "text": "In each of us there is another whom we do not know. He speaks to us in dreams and tells us how differently he sees us from the way we see ourselves.",
+      "concept": "Shadow",
+      "difficulty": 1,
+      "intent": "Shadow as the unknown other within; revealed through dreams",
+      "cross_links": [
+        "J001",
+        "J010",
+        "J013"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J009",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "Psychological Types",
+      "page": 443,
+      "text": "The Self is the totality of the conscious and unconscious psyche, not the ego.",
+      "concept": "Self",
+      "difficulty": 2,
+      "intent": "Self as unified totality; transcends ego-consciousness",
+      "cross_links": [
+        "J011",
+        "J012",
+        "S034"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J010",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "Aion",
+      "page": 263,
+      "text": "The Self is the midpoint of the personality and the totality of the psyche. The goal of individuation is to realize this Self.",
+      "concept": "Individuation",
+      "difficulty": 2,
+      "intent": "Individuation as integration; Self realization as endpoint",
+      "cross_links": [
+        "J009",
+        "J011",
+        "B032"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J011",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "Two Essays on Analytical Psychology",
+      "page": 121,
+      "text": "Individuation is the process by which individual beings are formed and differentiated; in particular, it is the development of the psychological individual as a being distinct from the general, collective psychology.",
+      "concept": "Individuation",
+      "difficulty": 1,
+      "intent": "Individuation as differentiation from collective; becoming distinct",
+      "cross_links": [
+        "J010",
+        "B003",
+        "B004"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J012",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "The Structure and Dynamics of the Psyche",
+      "page": 215,
+      "text": "The shadow is moral problem that challenges the whole ego-personality, for no one can become conscious of the shadow without considerable moral effort.",
+      "concept": "Shadow",
+      "difficulty": 3,
+      "intent": "Shadow work requires moral courage; not just psychological insight",
+      "cross_links": [
+        "J004",
+        "J005",
+        "F008"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J013",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "Analytical Psychology: Its Theory and Practice",
+      "page": 89,
+      "text": "In men, the anima is the inner woman; in women, the animus is the inner man. Until integrated, they project these figures onto the opposite sex.",
+      "concept": "Anima/Animus",
+      "difficulty": 2,
+      "intent": "Anima/animus as projection mechanism; integration prevents false attachment",
+      "cross_links": [
+        "J002",
+        "J014",
+        "B018"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J014",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "Psychology and Religion: West and East",
+      "page": 41,
+      "text": "The unconscious mind of man sees correctly even when conscious reason is blind and impotent.",
+      "concept": "Unconscious",
+      "difficulty": 2,
+      "intent": "Unconscious has wisdom; not mere repression vault",
+      "cross_links": [
+        "J008",
+        "S021",
+        "G002"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J015",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "Synchronicity: An Acausal Connecting Principle",
+      "page": 25,
+      "text": "Synchronicity is the simultaneous occurrence of psychologically meaningful events which have no apparent causal connection.",
+      "concept": "Synchronicity",
+      "difficulty": 3,
+      "intent": "Define synchronicity; challenges linear causality assumption",
+      "cross_links": [
+        "J014",
+        "J016",
+        "S050"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J016",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "The Interpretation of Nature and the Psyche",
+      "page": 19,
+      "text": "Synchronistic phenomena prove that a non-causal orderedness exists. But their existence remains inexplicable as long as no reciprocal relation is given between psyche and matter.",
+      "concept": "Synchronicity",
+      "difficulty": 3,
+      "intent": "Synchronicity as proof of non-causal order; consciousness-matter link",
+      "cross_links": [
+        "J015",
+        "S033"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J017",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "Memories, Dreams, Reflections",
+      "page": 326,
+      "text": "If there is no meeting of true individuals, there is no real relationship.",
+      "concept": "Projection",
+      "difficulty": 2,
+      "intent": "Projection prevents authentic meeting; blocks real relationship",
+      "cross_links": [
+        "J002",
+        "J013",
+        "B018"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J018",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "The Practice of Psychotherapy",
+      "page": 181,
+      "text": "Projection is an unconscious, automatic process whereby a content personal to the subject is incorporated in the object.",
+      "concept": "Projection",
+      "difficulty": 2,
+      "intent": "Projection mechanism defined: unconscious attribution to other",
+      "cross_links": [
+        "J013",
+        "B017",
+        "L004"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J019",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "The Archetypes and the Collective Unconscious",
+      "page": 42,
+      "text": "Archetypes are universal, primordial symbols and behavior patterns, the psychic substrates of all human experience.",
+      "concept": "Archetypes",
+      "difficulty": 2,
+      "intent": "Archetypes as collective universal patterns underlying experience",
+      "cross_links": [
+        "J020",
+        "J021",
+        "B024"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J020",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "The Archetypes and the Collective Unconscious",
+      "page": 90,
+      "text": "The shadow is that part of the personality which the subject refuses to acknowledge. But everyone carries a shadow, and the less it is embodied in the individual's conscious life, the blacker and denser it is.",
+      "concept": "Shadow",
+      "difficulty": 2,
+      "intent": "Unacknowledged shadow grows darker; expression lightens it",
+      "cross_links": [
+        "J001",
+        "J004",
+        "L003"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J021",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "Civilization in Transition",
+      "page": 73,
+      "text": "The collective unconscious contains the whole spiritual heritage of mankind's evolution, reborn anew in the brain structure of every individual.",
+      "concept": "Collective Unconscious",
+      "difficulty": 3,
+      "intent": "Collective unconscious as inherited psychological substrate; species memory",
+      "cross_links": [
+        "J019",
+        "J005",
+        "B024"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J022",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "The Practice of Psychotherapy",
+      "page": 44,
+      "text": "The unconscious is not just evil by nature, it is also the source of the highest good: not only bestial, semihuman, and demonic but superhuman, spiritual, and, in the classical sense of the word, divine.",
+      "concept": "Unconscious",
+      "difficulty": 3,
+      "intent": "Unconscious contains both destructive and creative potentials",
+      "cross_links": [
+        "J014",
+        "J020",
+        "J021"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J023",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "Aion",
+      "page": 8,
+      "text": "Everyone carries a shadow, and the less it is embodied in the individual's conscious life, the blacker and denser it is.",
+      "concept": "Shadow",
+      "difficulty": 1,
+      "intent": "Denial increases shadow density; integration lightens it",
+      "cross_links": [
+        "J001",
+        "J020"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J024",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "Two Essays on Analytical Psychology",
+      "page": 50,
+      "text": "The collective unconscious is the mighty spiritual heritage of mankind's evolution, born anew in the individual's psychic structure.",
+      "concept": "Collective Unconscious",
+      "difficulty": 2,
+      "intent": "Collective unconscious as evolution made psychological",
+      "cross_links": [
+        "J021",
+        "B024"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "J025",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source": "The Practice of Psychotherapy",
+      "page": 72,
+      "text": "The mass psyche has no individual consciousness of itself, but only a collective one.",
+      "concept": "Collective Unconscious",
+      "difficulty": 2,
+      "intent": "Collective operates without individual awareness; rules by default",
+      "cross_links": [
+        "J021",
+        "J024",
+        "B001"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B001",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 128,
+      "text": "The basic building block of the emotional system is the differentiation of self from others in a relationship.",
+      "concept": "Differentiation",
+      "difficulty": 1,
+      "intent": "Foundation: differentiation as core mechanism of health",
+      "cross_links": [
+        "B002",
+        "B003",
+        "J010"
+      ],
+      "understanding": {
+        "brief": "Differentiation: maintaining your own self while staying emotionally connected.",
+        "medium": "Differentiation means maintaining your own sense of self while staying emotionally connected to others. High differentiation: you have clear values, you don't absorb others' anxiety, you can disagree without cutting off.",
+        "full": "Differentiation means maintaining your own sense of self while staying emotionally connected to others. High differentiation: you have clear values, you don't absorb others' anxiety, you can disagree without cutting off. Low differentiation: you're reactive, you merge with others' emotions, you either cling or flee."
+      }
+    },
+    {
+      "id": "B002",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 135,
+      "text": "The more fused the emotional system, the more vulnerable it is to dysfunction when stress increases.",
+      "concept": "Differentiation",
+      "difficulty": 2,
+      "intent": "Low differentiation = vulnerability to system reactivity under stress",
+      "cross_links": [
+        "B001",
+        "B012",
+        "S046"
+      ],
+      "understanding": {
+        "brief": "Triangulation: pulling a third person into a conflict to reduce tension.",
+        "medium": "Emotional triangulation happens when two people pull a third into their conflict to reduce tension between them. This reduces immediate anxiety but doesn't solve the real issue.",
+        "full": "Emotional triangulation happens when two people pull a third into their conflict to reduce tension between them. Example: parents fight, kid becomes the problem child, focus shifts to fixing the kid instead of resolving the marriage. Reduces immediate anxiety but doesn't solve the real issue."
+      }
+    },
+    {
+      "id": "B003",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 67,
+      "text": "Differentiation of self is the cornerstone of the theory of family emotional systems. It refers to the capacity of an individual to maintain a sense of self in relationships.",
+      "concept": "Differentiation",
+      "difficulty": 1,
+      "intent": "Differentiation defined: autonomous self-maintenance in relationship",
+      "cross_links": [
+        "B001",
+        "J011",
+        "S007"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B004",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 142,
+      "text": "People with higher levels of differentiation function better in all life areas and manage stress more effectively.",
+      "concept": "Differentiation",
+      "difficulty": 1,
+      "intent": "Higher differentiation correlates with better functioning across domains",
+      "cross_links": [
+        "B001",
+        "B003"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B005",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 159,
+      "text": "Triangulation occurs when emotional tension between two people pulls a third person into their system.",
+      "concept": "Triangulation",
+      "difficulty": 1,
+      "intent": "Define triangulation: three-person stability mechanism",
+      "cross_links": [
+        "B006",
+        "B007",
+        "J017"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B006",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 165,
+      "text": "The triangle is the smallest stable unit in an emotional system. A two-person system is unstable and will automatically involve a third person to stabilize itself.",
+      "concept": "Triangulation",
+      "difficulty": 2,
+      "intent": "Triangulation as system requirement for stability; not individual pathology",
+      "cross_links": [
+        "B005",
+        "B008",
+        "G001"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B007",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 172,
+      "text": "The person involved in a triangle has three choices: to get into the triangle, to resolve the triangle, or to get out of the triangle.",
+      "concept": "Triangulation",
+      "difficulty": 2,
+      "intent": "Agency in triangulation: three paths available",
+      "cross_links": [
+        "B005",
+        "B006",
+        "S047"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B008",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 178,
+      "text": "The more intense the emotional process in the triangle, the more intense the emotional feeling in the person involved.",
+      "concept": "Triangulation",
+      "difficulty": 2,
+      "intent": "Emotional intensity in triangle proportional to system stress",
+      "cross_links": [
+        "B005",
+        "B006",
+        "J007"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B009",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 92,
+      "text": "Emotional cutoff is the way people manage unresolved emotional attachment to parents.",
+      "concept": "Emotional Cutoff",
+      "difficulty": 1,
+      "intent": "Define cutoff: managing unresolved fusion through distance",
+      "cross_links": [
+        "B010",
+        "B011",
+        "J008"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B010",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 99,
+      "text": "The greater the emotional cutoff from the family of origin, the more likely the person is to have a reactive relationship pattern in the next generation.",
+      "concept": "Emotional Cutoff",
+      "difficulty": 2,
+      "intent": "Cutoff creates transmission: unresolved fusion repeats downstream",
+      "cross_links": [
+        "B009",
+        "B024",
+        "B025"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B011",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 106,
+      "text": "Emotional cutoff does not resolve the fusion; it only manages it by physical or psychological distance.",
+      "concept": "Emotional Cutoff",
+      "difficulty": 2,
+      "intent": "Cutoff is avoidance, not resolution; fusion remains underground",
+      "cross_links": [
+        "B009",
+        "B010",
+        "G003"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B012",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 113,
+      "text": "When the emotional system is activated by stress, people regress to lower levels of differentiation.",
+      "concept": "Emotional Process",
+      "difficulty": 2,
+      "intent": "Stress triggers regression; differentiation becomes automatic reactivity",
+      "cross_links": [
+        "B002",
+        "B003",
+        "J007"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B013",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 120,
+      "text": "The family emotional system operates according to natural laws, not by choice or conscious intent.",
+      "concept": "Emotional Process",
+      "difficulty": 1,
+      "intent": "Family systems are automatic; consciousness secondary to process",
+      "cross_links": [
+        "B012",
+        "G003",
+        "L001"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B014",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 127,
+      "text": "The person who can remain calm and objective during emotional turmoil in the family can modify the entire emotional process of the system.",
+      "concept": "Emotional Process",
+      "difficulty": 3,
+      "intent": "Individual calmness ripples through system; differentiation moves others",
+      "cross_links": [
+        "B001",
+        "B003",
+        "S001"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B015",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 134,
+      "text": "The family is an emotional unit. You cannot understand one person without understanding their position in the family emotional system.",
+      "concept": "Family System",
+      "difficulty": 1,
+      "intent": "Individual behavior unintelligible without system context",
+      "cross_links": [
+        "B001",
+        "B005",
+        "B012"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B016",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 141,
+      "text": "Fusion is the result of the emotional overinvolvement and interdependence in a relationship.",
+      "concept": "Fusion",
+      "difficulty": 1,
+      "intent": "Define fusion: emotional entanglement and loss of boundaries",
+      "cross_links": [
+        "B001",
+        "B010",
+        "B016"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B017",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 148,
+      "text": "The more fused a person is, the more likely they are to blame others for their own discomfort.",
+      "concept": "Fusion",
+      "difficulty": 2,
+      "intent": "Fusion blocks self-responsibility; blaming replaces agency",
+      "cross_links": [
+        "B016",
+        "J018",
+        "S044"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B018",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 155,
+      "text": "A person can choose to work on their own differentiation regardless of what others in the system do.",
+      "concept": "Differentiation",
+      "difficulty": 2,
+      "intent": "Agency: differentiation work is individual choice, not dependent on others",
+      "cross_links": [
+        "B001",
+        "B003",
+        "S007"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B019",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 161,
+      "text": "Projection is the process by which emotional problems in a relationship get located in another person.",
+      "concept": "Projection",
+      "difficulty": 1,
+      "intent": "Bowen's systems view of projection: relationship mechanism",
+      "cross_links": [
+        "J018",
+        "B020",
+        "L004"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B020",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 167,
+      "text": "The less differentiated the parents, the more likely they are to focus on one child as the problem.",
+      "concept": "Projection",
+      "difficulty": 2,
+      "intent": "Low differentiation \u2192 symptom bearer identified in child",
+      "cross_links": [
+        "B019",
+        "B021",
+        "B024"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B021",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 174,
+      "text": "The identified patient is the person in whom family dysfunction is most visible, not the person who is actually most dysfunctional.",
+      "concept": "Projection",
+      "difficulty": 2,
+      "intent": "Symptom bearer distinguished from actual system dysfunction",
+      "cross_links": [
+        "B020",
+        "B022",
+        "L004"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B022",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 181,
+      "text": "The family projective process is the mechanism by which emotional problems in the relationship are automatically transferred to a child.",
+      "concept": "Projection",
+      "difficulty": 2,
+      "intent": "Intergenerational projection: family passes problems to next generation",
+      "cross_links": [
+        "B020",
+        "B021",
+        "B024"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B023",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 188,
+      "text": "The multigenerational transmission process is the way in which the level of differentiation in a family is passed from one generation to the next.",
+      "concept": "Multigenerational Transmission",
+      "difficulty": 2,
+      "intent": "Differentiation level inherited; patterns transmit across generations",
+      "cross_links": [
+        "B024",
+        "B025",
+        "J005"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B024",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 194,
+      "text": "The greater the emotional intensity in the family, the more intense the projection and the transmission of problems to the next generation.",
+      "concept": "Multigenerational Transmission",
+      "difficulty": 2,
+      "intent": "Stress intensifies transmission; emotional heat drives intergenerational patterns",
+      "cross_links": [
+        "B023",
+        "B025",
+        "B012"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B025",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 201,
+      "text": "It takes work across multiple generations to lower the level of chronic anxiety in a family system.",
+      "concept": "Multigenerational Transmission",
+      "difficulty": 3,
+      "intent": "Pattern reversal requires long-term sustained effort; one person can start it",
+      "cross_links": [
+        "B023",
+        "B024",
+        "B014"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B026",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 208,
+      "text": "The nuclear family emotional system is the way a couple manages their relationship and raises their children.",
+      "concept": "Family System",
+      "difficulty": 1,
+      "intent": "Nuclear family as repeating unit of emotional system",
+      "cross_links": [
+        "B015",
+        "B023"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B027",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 215,
+      "text": "The extended family system is the context in which the nuclear family operates.",
+      "concept": "Family System",
+      "difficulty": 1,
+      "intent": "Extended family as container/influence on nuclear system",
+      "cross_links": [
+        "B026",
+        "B015"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B028",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 222,
+      "text": "Chronic anxiety in the family system manifests as physical symptoms, emotional symptoms, or social dysfunction.",
+      "concept": "Emotional Process",
+      "difficulty": 2,
+      "intent": "System anxiety distributes across somatic, emotional, behavioral channels",
+      "cross_links": [
+        "B012",
+        "B024",
+        "B028"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B029",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 229,
+      "text": "The goal of therapy is to increase the level of differentiation of the individual, which automatically changes their position in the family system.",
+      "concept": "Differentiation",
+      "difficulty": 2,
+      "intent": "Higher differentiation shifts system automatically; no need to fix others",
+      "cross_links": [
+        "B001",
+        "B014",
+        "B018"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "B030",
+      "framework": "Bowen",
+      "author": "Murray Bowen",
+      "source": "Family Therapy in Clinical Practice",
+      "page": 236,
+      "text": "A person can work on their own differentiation without waiting for others to change.",
+      "concept": "Differentiation",
+      "difficulty": 1,
+      "intent": "Individual work is sufficient; doesn't require system cooperation",
+      "cross_links": [
+        "B018",
+        "B029",
+        "S007"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S001",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 5,
+      "text": "You have power over your mind\u2014not outside events. Realize this, and you will find strength.",
+      "concept": "Dichotomy of Control",
+      "difficulty": 1,
+      "intent": "Foundation: only mind is in your control, not external events",
+      "cross_links": [
+        "S002",
+        "S003",
+        "B001"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S002",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 42,
+      "text": "The impediment to action advances action. What stands in the way becomes the way.",
+      "concept": "Dichotomy of Control",
+      "difficulty": 2,
+      "intent": "Obstacles are within your control; they become fuel",
+      "cross_links": [
+        "S001",
+        "S011",
+        "F001"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S003",
+      "framework": "Stoicism",
+      "author": "Epictetus",
+      "source": "Discourses",
+      "page": 1,
+      "text": "Some things are within your control and some things are not. Within your control are opinion, motivation, desire, aversion, and all actions that are your own doing. Not within your control are your body, property, reputation, office, and whatever else is not your own doing.",
+      "concept": "Dichotomy of Control",
+      "difficulty": 2,
+      "intent": "Full categorization of what is/isn't controllable",
+      "cross_links": [
+        "S001",
+        "S002",
+        "S044"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S004",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 87,
+      "text": "It can ruin your life only if it ruins your character. Otherwise it cannot harm you\u2014inside or out.",
+      "concept": "Dichotomy of Control",
+      "difficulty": 2,
+      "intent": "External harm is irrelevant if character remains intact",
+      "cross_links": [
+        "S001",
+        "S006",
+        "L005"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S005",
+      "framework": "Stoicism",
+      "author": "Seneca",
+      "source": "Letters from a Stoic",
+      "page": 34,
+      "text": "We suffer more often in imagination than in reality.",
+      "concept": "Assent/Judgment",
+      "difficulty": 1,
+      "intent": "Suffering arises from judgment, not event; control the judgment",
+      "cross_links": [
+        "S006",
+        "S044",
+        "F002"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S006",
+      "framework": "Stoicism",
+      "author": "Epictetus",
+      "source": "Discourses",
+      "page": 42,
+      "text": "It is not things themselves that disturb people, but their judgments about those things.",
+      "concept": "Assent/Judgment",
+      "difficulty": 1,
+      "intent": "Events neutral; judgment creates disturbance",
+      "cross_links": [
+        "S005",
+        "S007",
+        "S008"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S007",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 56,
+      "text": "You have power over your assent. If something is presented to your mind that induces assent, you can reject it.",
+      "concept": "Assent/Judgment",
+      "difficulty": 2,
+      "intent": "Assent is voluntary; you can withdraw it from any impression",
+      "cross_links": [
+        "S006",
+        "S009",
+        "B018"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S008",
+      "framework": "Stoicism",
+      "author": "Seneca",
+      "source": "Letters from a Stoic",
+      "page": 41,
+      "text": "The wise man is not led by his passions, but consents to them only after judging them worthy of assent.",
+      "concept": "Assent/Judgment",
+      "difficulty": 2,
+      "intent": "Emotions arise naturally; wisdom is selective assent",
+      "cross_links": [
+        "S006",
+        "S007",
+        "S045"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S009",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 63,
+      "text": "You can live excellently even if everyone disagrees with you. Just keep living.",
+      "concept": "Virtue",
+      "difficulty": 2,
+      "intent": "Virtue is self-justifying; external approval irrelevant",
+      "cross_links": [
+        "S010",
+        "S006",
+        "L005"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S010",
+      "framework": "Stoicism",
+      "author": "Epictetus",
+      "source": "Discourses",
+      "page": 88,
+      "text": "Virtue is the only good. Vice is the only evil. Everything else is indifferent.",
+      "concept": "Virtue",
+      "difficulty": 1,
+      "intent": "Axiom: only virtue/vice morally significant",
+      "cross_links": [
+        "S009",
+        "S011",
+        "F007"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S011",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 71,
+      "text": "Virtue is to refuse to participate in the world's disturbance.",
+      "concept": "Virtue",
+      "difficulty": 2,
+      "intent": "Virtue as non-participation in collective emotional reactivity",
+      "cross_links": [
+        "S010",
+        "S002",
+        "B014"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S012",
+      "framework": "Stoicism",
+      "author": "Seneca",
+      "source": "Letters from a Stoic",
+      "page": 48,
+      "text": "Virtue is the only thing worth valuing. Everything else\u2014health, property, reputation\u2014is indifferent unless it serves virtue.",
+      "concept": "Virtue",
+      "difficulty": 2,
+      "intent": "Virtue as sole intrinsic good; all else instrumental",
+      "cross_links": [
+        "S010",
+        "S011",
+        "J003"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S013",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 78,
+      "text": "Amor fati\u2014love of fate. Do not just accept the inevitable; love it.",
+      "concept": "Amor Fati",
+      "difficulty": 2,
+      "intent": "Transform acceptance into love; active embrace of necessity",
+      "cross_links": [
+        "S014",
+        "S015",
+        "F003"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S014",
+      "framework": "Stoicism",
+      "author": "Seneca",
+      "source": "Letters from a Stoic",
+      "page": 55,
+      "text": "Ask yourself: what is the best use of the hand I've been dealt? That is virtue.",
+      "concept": "Amor Fati",
+      "difficulty": 2,
+      "intent": "Given circumstances as material for virtue; optimize within constraint",
+      "cross_links": [
+        "S013",
+        "S015",
+        "S002"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S015",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 85,
+      "text": "A blazing fire makes flame and brightness out of everything that is thrown into it.",
+      "concept": "Amor Fati",
+      "difficulty": 2,
+      "intent": "Transmute adversity into fuel; virtue as alchemical process",
+      "cross_links": [
+        "S013",
+        "S014",
+        "S002"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S016",
+      "framework": "Stoicism",
+      "author": "Epictetus",
+      "source": "Discourses",
+      "page": 65,
+      "text": "Freedom is not procured by a full enjoyment of what is desired, but by controlling the desire.",
+      "concept": "Apatheia",
+      "difficulty": 2,
+      "intent": "Freedom through reduction of want, not satisfaction of want",
+      "cross_links": [
+        "S017",
+        "S044",
+        "B001"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S017",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 92,
+      "text": "Apatheia is not numbness, but freedom from being moved by dispreferred indifferents.",
+      "concept": "Apatheia",
+      "difficulty": 2,
+      "intent": "Apatheia as clarity, not callousness; emotional freedom not emotional death",
+      "cross_links": [
+        "S016",
+        "S018",
+        "S006"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S018",
+      "framework": "Stoicism",
+      "author": "Seneca",
+      "source": "Letters from a Stoic",
+      "page": 62,
+      "text": "He robs present ills of their power who has perceived their coming beforehand.",
+      "concept": "Preparation",
+      "difficulty": 2,
+      "intent": "Premeditation of adversity reduces its impact",
+      "cross_links": [
+        "S017",
+        "S019",
+        "F005"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S019",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 99,
+      "text": "The impediment to action advances action. What stands in the way becomes the way.",
+      "concept": "Preparation",
+      "difficulty": 2,
+      "intent": "Obstacles reveal opportunity; adversity as teacher",
+      "cross_links": [
+        "S018",
+        "S002",
+        "S014"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S020",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 106,
+      "text": "Duty is the foundation of justice.",
+      "concept": "Duty",
+      "difficulty": 1,
+      "intent": "Axiom: duty as moral foundation",
+      "cross_links": [
+        "S021",
+        "S022",
+        "F008"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S021",
+      "framework": "Stoicism",
+      "author": "Epictetus",
+      "source": "Discourses",
+      "page": 72,
+      "text": "Do not demand that things happen as you wish, but wish them to happen as they do, and you will go well.",
+      "concept": "Duty",
+      "difficulty": 2,
+      "intent": "Alignment of will with reality; acceptance as duty",
+      "cross_links": [
+        "S020",
+        "S013",
+        "S022"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S022",
+      "framework": "Stoicism",
+      "author": "Seneca",
+      "source": "Letters from a Stoic",
+      "page": 69,
+      "text": "Our duties are two: to understand the universal principles and to maintain our integrity in action.",
+      "concept": "Duty",
+      "difficulty": 2,
+      "intent": "Duty as knowledge + action alignment",
+      "cross_links": [
+        "S020",
+        "S021",
+        "S023"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S023",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 113,
+      "text": "Do the difficult things while they are easy and do the great things while they are small.",
+      "concept": "Action",
+      "difficulty": 1,
+      "intent": "Prevention through early action; don't wait for crisis",
+      "cross_links": [
+        "S022",
+        "S018",
+        "S002"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S024",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 120,
+      "text": "We are born for cooperation, like feet, like hands, like eyelids, like the rows of the upper and lower teeth.",
+      "concept": "Cosmopolitanism",
+      "difficulty": 1,
+      "intent": "Natural interdependence; cooperation as ontological fact",
+      "cross_links": [
+        "S025",
+        "S026",
+        "B015"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S025",
+      "framework": "Stoicism",
+      "author": "Epictetus",
+      "source": "Discourses",
+      "page": 79,
+      "text": "You are a citizen of the world, a part of the whole. Act accordingly.",
+      "concept": "Cosmopolitanism",
+      "difficulty": 2,
+      "intent": "Allegiance to humanity, not tribe; universal ethical scope",
+      "cross_links": [
+        "S024",
+        "S026",
+        "S011"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S026",
+      "framework": "Stoicism",
+      "author": "Seneca",
+      "source": "Letters from a Stoic",
+      "page": 76,
+      "text": "All human beings are your kin. Treat them accordingly.",
+      "concept": "Cosmopolitanism",
+      "difficulty": 1,
+      "intent": "Kinship as basis for ethics across tribe/status boundaries",
+      "cross_links": [
+        "S024",
+        "S025",
+        "S022"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S027",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 127,
+      "text": "Reason is the governing principle. Align your will with reason and you will flourish.",
+      "concept": "Reason",
+      "difficulty": 2,
+      "intent": "Reason as alignment mechanism; flourishing follows alignment",
+      "cross_links": [
+        "S028",
+        "S029",
+        "J014"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S028",
+      "framework": "Stoicism",
+      "author": "Epictetus",
+      "source": "Discourses",
+      "page": 86,
+      "text": "Nothing is by its nature good or evil. It depends on the use of your reasoning faculty.",
+      "concept": "Reason",
+      "difficulty": 2,
+      "intent": "Reason makes value; externals neutral until judged",
+      "cross_links": [
+        "S027",
+        "S029",
+        "S006"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S029",
+      "framework": "Stoicism",
+      "author": "Seneca",
+      "source": "Letters from a Stoic",
+      "page": 83,
+      "text": "Reason is what separates us from beasts. Develop it as your supreme instrument.",
+      "concept": "Reason",
+      "difficulty": 1,
+      "intent": "Reason as human excellence; cultivate it above all",
+      "cross_links": [
+        "S027",
+        "S028",
+        "S010"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S030",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 134,
+      "text": "The universe is change; our life is what our thoughts make it.",
+      "concept": "Change",
+      "difficulty": 2,
+      "intent": "Change as fundamental; mind shapes experience of change",
+      "cross_links": [
+        "S031",
+        "S005",
+        "J014"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S031",
+      "framework": "Stoicism",
+      "author": "Seneca",
+      "source": "Letters from a Stoic",
+      "page": 90,
+      "text": "Permanence is an illusion. Flow with change rather than resist it.",
+      "concept": "Change",
+      "difficulty": 2,
+      "intent": "Non-resistance to change; flow as mastery",
+      "cross_links": [
+        "S030",
+        "S013",
+        "S015"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S032",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 141,
+      "text": "When you arise in the morning, think of what a precious privilege it is to be alive\u2014to breathe, to think, to enjoy, to love.",
+      "concept": "Gratitude",
+      "difficulty": 1,
+      "intent": "Gratitude as foundational practice; life as privilege",
+      "cross_links": [
+        "S033",
+        "S013",
+        "S031"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S033",
+      "framework": "Stoicism",
+      "author": "Seneca",
+      "source": "Letters from a Stoic",
+      "page": 97,
+      "text": "A grateful mind is a great mind.",
+      "concept": "Gratitude",
+      "difficulty": 1,
+      "intent": "Gratitude as measure of wisdom",
+      "cross_links": [
+        "S032",
+        "S027",
+        "J015"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S034",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 148,
+      "text": "You have within you every conceivable resource for your happiness. You simply have to choose to use them.",
+      "concept": "Self-Sufficiency",
+      "difficulty": 2,
+      "intent": "Everything necessary for flourishing is internal; freedom through self-reliance",
+      "cross_links": [
+        "S035",
+        "S001",
+        "J009"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S035",
+      "framework": "Stoicism",
+      "author": "Epictetus",
+      "source": "Discourses",
+      "page": 93,
+      "text": "I am not harmed unless I judge myself harmed. Nothing injures me but my own opinion.",
+      "concept": "Self-Sufficiency",
+      "difficulty": 2,
+      "intent": "Harm requires assent; self-protection through judgment",
+      "cross_links": [
+        "S034",
+        "S006",
+        "S007"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S036",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 155,
+      "text": "Death smiles at us all. The only thing to do is smile back.",
+      "concept": "Equanimity",
+      "difficulty": 2,
+      "intent": "Equanimity before death; smiling as psychological stance",
+      "cross_links": [
+        "S037",
+        "S013",
+        "F005"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S037",
+      "framework": "Stoicism",
+      "author": "Seneca",
+      "source": "Letters from a Stoic",
+      "page": 104,
+      "text": "To live well is to know how to die well.",
+      "concept": "Equanimity",
+      "difficulty": 2,
+      "intent": "Mortality awareness as key to wisdom; death as teacher",
+      "cross_links": [
+        "S036",
+        "F005",
+        "S013"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S038",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 162,
+      "text": "You have power over your mind\u2014not outside events. Realize this, and you will find strength.",
+      "concept": "Power",
+      "difficulty": 1,
+      "intent": "Reiteration: internal power is ultimate power",
+      "cross_links": [
+        "S001",
+        "S007",
+        "S034"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S039",
+      "framework": "Stoicism",
+      "author": "Epictetus",
+      "source": "Discourses",
+      "page": 100,
+      "text": "First say to yourself what you would be; and then do what you have to do.",
+      "concept": "Character",
+      "difficulty": 1,
+      "intent": "Character as intentional construction; choice precedes action",
+      "cross_links": [
+        "S040",
+        "S010",
+        "J003"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S040",
+      "framework": "Stoicism",
+      "author": "Seneca",
+      "source": "Letters from a Stoic",
+      "page": 111,
+      "text": "Everything depends on your choice. What you choose to believe is what will be true for you.",
+      "concept": "Character",
+      "difficulty": 2,
+      "intent": "Character as belief-driven; beliefs are choice",
+      "cross_links": [
+        "S039",
+        "S007",
+        "S006"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S041",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 169,
+      "text": "Discipline your thoughts at their source. Do not let them run wild.",
+      "concept": "Discipline",
+      "difficulty": 1,
+      "intent": "Thought-discipline as practice; vigilance required",
+      "cross_links": [
+        "S042",
+        "S007",
+        "S039"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S042",
+      "framework": "Stoicism",
+      "author": "Seneca",
+      "source": "Letters from a Stoic",
+      "page": 118,
+      "text": "Self-discipline is the path to freedom. The more you master yourself, the freer you become.",
+      "concept": "Discipline",
+      "difficulty": 2,
+      "intent": "Paradox: discipline liberates; freedom through mastery",
+      "cross_links": [
+        "S041",
+        "S016",
+        "B001"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S043",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 176,
+      "text": "Enough words. Begin to live. That is the end and beginning of all philosophy.",
+      "concept": "Action",
+      "difficulty": 1,
+      "intent": "Philosophy only matters in action; praxis required",
+      "cross_links": [
+        "S044",
+        "S023",
+        "S041"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S044",
+      "framework": "Stoicism",
+      "author": "Epictetus",
+      "source": "Discourses",
+      "page": 107,
+      "text": "Keep your attention focused on what is within your control. Let go of what is not.",
+      "concept": "Dichotomy of Control",
+      "difficulty": 1,
+      "intent": "Reiteration: focus on what you control; release what you don't",
+      "cross_links": [
+        "S001",
+        "S003",
+        "B001"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S045",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 183,
+      "text": "Love of human beings and truth together make the perfect character.",
+      "concept": "Character",
+      "difficulty": 2,
+      "intent": "Love + truth as twin pillars of virtue",
+      "cross_links": [
+        "S040",
+        "J002",
+        "S026"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S046",
+      "framework": "Stoicism",
+      "author": "Seneca",
+      "source": "Letters from a Stoic",
+      "page": 125,
+      "text": "The mind adapts and converts to its own purposes the obstacle to our acting. The impediment to action advances action. What stands in the way becomes the way.",
+      "concept": "Obstacle",
+      "difficulty": 2,
+      "intent": "Obstacle as creative material; transmutation through mind",
+      "cross_links": [
+        "S002",
+        "S014",
+        "S015"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S047",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 190,
+      "text": "You have a choice right now. To engage with life fully or to retreat. Choose fully.",
+      "concept": "Choice",
+      "difficulty": 1,
+      "intent": "Engagement as choice; always available",
+      "cross_links": [
+        "S001",
+        "S007",
+        "B007"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S048",
+      "framework": "Stoicism",
+      "author": "Epictetus",
+      "source": "Discourses",
+      "page": 114,
+      "text": "Misfortune is a teacher. Learn from it and you have profited.",
+      "concept": "Adversity",
+      "difficulty": 2,
+      "intent": "Adversity as pedagogical; profit through learning",
+      "cross_links": [
+        "S002",
+        "S014",
+        "F003"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S049",
+      "framework": "Stoicism",
+      "author": "Seneca",
+      "source": "Letters from a Stoic",
+      "page": 132,
+      "text": "We cannot choose our external circumstances, but we can always choose how we respond to them.",
+      "concept": "Response",
+      "difficulty": 1,
+      "intent": "Agency in response; circumstance-independence",
+      "cross_links": [
+        "S001",
+        "S006",
+        "B007"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "S050",
+      "framework": "Stoicism",
+      "author": "Marcus Aurelius",
+      "source": "Meditations",
+      "page": 197,
+      "text": "Waste no more time arguing about what a good man should be. Be one.",
+      "concept": "Action",
+      "difficulty": 1,
+      "intent": "Being over thinking; practice over theory",
+      "cross_links": [
+        "S043",
+        "S047",
+        "J015"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "G001",
+      "framework": "Gurdjieff",
+      "author": "P.D. Ouspensky (translator)",
+      "source": "In Search of the Miraculous",
+      "page": 42,
+      "text": "Man is a machine. Everything he does is done mechanically, in the exact sense of this word.",
+      "concept": "Mechanical Reaction",
+      "difficulty": 2,
+      "intent": "Foundation: humans run automatic programs; consciousness absent",
+      "cross_links": [
+        "G002",
+        "G003",
+        "J007"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "G002",
+      "framework": "Gurdjieff",
+      "author": "P.D. Ouspensky (translator)",
+      "source": "In Search of the Miraculous",
+      "page": 56,
+      "text": "Man has no individual I. His I is always plural. At every moment a different I is in command.",
+      "concept": "Mechanical Reaction",
+      "difficulty": 2,
+      "intent": "No unified self; mechanical switching of personalities",
+      "cross_links": [
+        "G001",
+        "J003",
+        "L001"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "G003",
+      "framework": "Gurdjieff",
+      "author": "P.D. Ouspensky (translator)",
+      "source": "In Search of the Miraculous",
+      "page": 71,
+      "text": "Understanding is the resultant of knowledge and being. Knowledge without being is mechanical and cannot change anything.",
+      "concept": "Being-Doing Gap",
+      "difficulty": 2,
+      "intent": "Knowledge alone insufficient; being/practice required for transformation",
+      "cross_links": [
+        "G004",
+        "G005",
+        "F007"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "G004",
+      "framework": "Gurdjieff",
+      "author": "P.D. Ouspensky (translator)",
+      "source": "In Search of the Miraculous",
+      "page": 87,
+      "text": "Conscious labor and intentional suffering are the two pillars of real transformation.",
+      "concept": "Conscious Labor",
+      "difficulty": 2,
+      "intent": "Change requires active effort and voluntary hardship; passive insight fails",
+      "cross_links": [
+        "G003",
+        "G005",
+        "S042"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "G005",
+      "framework": "Gurdjieff",
+      "author": "P.D. Ouspensky (translator)",
+      "source": "In Search of the Miraculous",
+      "page": 103,
+      "text": "To change, a man must become aware of his mechanical behavior. Awareness alone does not change it. He must work against it.",
+      "concept": "Conscious Labor",
+      "difficulty": 3,
+      "intent": "Awareness \u2260 change; effort against mechanical patterns required",
+      "cross_links": [
+        "G004",
+        "J004",
+        "B012"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "G006",
+      "framework": "Gurdjieff",
+      "author": "P.D. Ouspensky (translator)",
+      "source": "In Search of the Miraculous",
+      "page": 119,
+      "text": "There is the real I, and there are hundreds of artificial I's. The work is to find the real I.",
+      "concept": "Real I",
+      "difficulty": 2,
+      "intent": "True self buried under mechanical personas; requires excavation",
+      "cross_links": [
+        "G002",
+        "J008",
+        "J003"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "G007",
+      "framework": "Gurdjieff",
+      "author": "P.D. Ouspensky (translator)",
+      "source": "In Search of the Miraculous",
+      "page": 135,
+      "text": "A man may be born, but in order to be born he must first die, and in order to die he must first awake.",
+      "concept": "Awakening",
+      "difficulty": 3,
+      "intent": "Birth (consciousness) requires dying (letting go); awakening precedes both",
+      "cross_links": [
+        "G006",
+        "G004",
+        "J010"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "G008",
+      "framework": "Gurdjieff",
+      "author": "P.D. Ouspensky (translator)",
+      "source": "In Search of the Miraculous",
+      "page": 151,
+      "text": "The essence of man is very small. His personality is not his own. His knowledge is theoretical. Only his being is real.",
+      "concept": "Being-Doing Gap",
+      "difficulty": 2,
+      "intent": "Being > knowledge; personality is false construct",
+      "cross_links": [
+        "G003",
+        "G006",
+        "J009"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "F001",
+      "framework": "Frankl",
+      "author": "Viktor Frankl",
+      "source": "Man's Search for Meaning",
+      "page": 63,
+      "text": "Everything can be taken from a man but one thing: the last of the human freedoms\u2014to choose one's attitude in any given set of circumstances.",
+      "concept": "Freedom of Attitude",
+      "difficulty": 1,
+      "intent": "Foundation: attitude choice is irrevocable freedom; circumstance-independent",
+      "cross_links": [
+        "F002",
+        "F003",
+        "S001"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "F002",
+      "framework": "Frankl",
+      "author": "Viktor Frankl",
+      "source": "Man's Search for Meaning",
+      "page": 78,
+      "text": "When we are no longer able to change a situation, we are challenged to change ourselves.",
+      "concept": "Meaning-Making",
+      "difficulty": 1,
+      "intent": "Constraint as opportunity for self-change and meaning discovery",
+      "cross_links": [
+        "F001",
+        "F003",
+        "S013"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "F003",
+      "framework": "Frankl",
+      "author": "Viktor Frankl",
+      "source": "Man's Search for Meaning",
+      "page": 94,
+      "text": "Life asks us questions. Meaning comes from answering those questions through our actions.",
+      "concept": "Meaning-Making",
+      "difficulty": 2,
+      "intent": "Meaning as response-to; active engagement with life's demands",
+      "cross_links": [
+        "F002",
+        "F004",
+        "S043"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "F004",
+      "framework": "Frankl",
+      "author": "Viktor Frankl",
+      "source": "Man's Search for Meaning",
+      "page": 111,
+      "text": "The meaning of life differs from man to man, from day to day and from hour to hour. What matters is not the meaning of life in general, but rather the specific meaning of a person's life at a given moment.",
+      "concept": "Meaning-Making",
+      "difficulty": 2,
+      "intent": "Meaning is concrete, situational, variable; not abstract universal",
+      "cross_links": [
+        "F003",
+        "F005",
+        "J010"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "F005",
+      "framework": "Frankl",
+      "author": "Viktor Frankl",
+      "source": "Man's Search for Meaning",
+      "page": 127,
+      "text": "Suffering ceases to be suffering at the moment it finds meaning.",
+      "concept": "Suffering as Opportunity",
+      "difficulty": 2,
+      "intent": "Meaning transmutes suffering; psychological alchemy",
+      "cross_links": [
+        "F003",
+        "F006",
+        "S015"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "F006",
+      "framework": "Frankl",
+      "author": "Viktor Frankl",
+      "source": "Man's Search for Meaning",
+      "page": 143,
+      "text": "Happiness ensues from finding meaning. You cannot pursue happiness directly; it comes as a byproduct of living meaningfully.",
+      "concept": "Meaning-Making",
+      "difficulty": 1,
+      "intent": "Meaning-first principle; happiness as secondary effect",
+      "cross_links": [
+        "F005",
+        "F004",
+        "S045"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "F007",
+      "framework": "Frankl",
+      "author": "Viktor Frankl",
+      "source": "Logotherapy",
+      "page": 34,
+      "text": "Logotherapy is the reorientation of a person toward meaning. It relieves neurosis not by understanding the past but by changing the future orientation.",
+      "concept": "Logotherapy",
+      "difficulty": 2,
+      "intent": "Forward-looking therapy; future-meaning over past-cause",
+      "cross_links": [
+        "F008",
+        "F003",
+        "S021"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "F008",
+      "framework": "Frankl",
+      "author": "Viktor Frankl",
+      "source": "Logotherapy",
+      "page": 51,
+      "text": "Responsibility is the distinguishing feature of human existence. We are responsible for our meaning.",
+      "concept": "Responsibility",
+      "difficulty": 2,
+      "intent": "Responsibility as intrinsic; we create meaning through choice",
+      "cross_links": [
+        "F007",
+        "F001",
+        "S022"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "F009",
+      "framework": "Frankl",
+      "author": "Viktor Frankl",
+      "source": "Man's Search for Meaning",
+      "page": 159,
+      "text": "The worst thing that can happen to a human being is to lose the sense that life has meaning.",
+      "concept": "Meaning-Making",
+      "difficulty": 1,
+      "intent": "Meaninglessness as existential catastrophe; meaning as prerequisite",
+      "cross_links": [
+        "F006",
+        "F004",
+        "L002"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "F010",
+      "framework": "Frankl",
+      "author": "Viktor Frankl",
+      "source": "Man's Search for Meaning",
+      "page": 175,
+      "text": "It is the very pursuit of happiness that thwarts happiness. Pursue meaning instead.",
+      "concept": "Meaning-Making",
+      "difficulty": 1,
+      "intent": "Happiness-pursuit paradox; meaning as proper aim",
+      "cross_links": [
+        "F006",
+        "F001",
+        "S013"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "L001",
+      "framework": "Laing",
+      "author": "R.D. Laing",
+      "source": "The Divided Self",
+      "page": 27,
+      "text": "Behavior is a function of the person's being-in-the-world.",
+      "concept": "Authenticity",
+      "difficulty": 1,
+      "intent": "Being determines behavior; alienation from being = dysfunction",
+      "cross_links": [
+        "L002",
+        "L003",
+        "G002"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "L002",
+      "framework": "Laing",
+      "author": "R.D. Laing",
+      "source": "The Divided Self",
+      "page": 43,
+      "text": "When the individual has lost touch with his own being, he experiences others as unreal.",
+      "concept": "Divided Self",
+      "difficulty": 2,
+      "intent": "Self-alienation \u2192 other-alienation; loop of unreality",
+      "cross_links": [
+        "L001",
+        "L003",
+        "J020"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "L003",
+      "framework": "Laing",
+      "author": "R.D. Laing",
+      "source": "The Divided Self",
+      "page": 59,
+      "text": "The person may be defended against the threat of ontological insecurity by constructing a false self.",
+      "concept": "Divided Self",
+      "difficulty": 2,
+      "intent": "False self as defense; adaptive initially, becomes prison",
+      "cross_links": [
+        "L002",
+        "L004",
+        "J003"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "L004",
+      "framework": "Laing",
+      "author": "R.D. Laing",
+      "source": "The Politics of Experience",
+      "page": 12,
+      "text": "Mystification is the process by which the truth is hidden from the other person.",
+      "concept": "Mystification",
+      "difficulty": 1,
+      "intent": "Define mystification: systematic confusion as control mechanism",
+      "cross_links": [
+        "L005",
+        "L006",
+        "B020"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "L005",
+      "framework": "Laing",
+      "author": "R.D. Laing",
+      "source": "The Politics of Experience",
+      "page": 28,
+      "text": "Families often mystify the child to maintain control and family cohesion.",
+      "concept": "Mystification",
+      "difficulty": 2,
+      "intent": "Mystification as family mechanism; maintains fusion",
+      "cross_links": [
+        "L004",
+        "B016",
+        "B020"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "L006",
+      "framework": "Laing",
+      "author": "R.D. Laing",
+      "source": "The Politics of Experience",
+      "page": 44,
+      "text": "Sanity may not be statistical normality. The normal person may be insane in the existential sense.",
+      "concept": "Authenticity",
+      "difficulty": 2,
+      "intent": "Normality \u2260 health; conformity may mask existential death",
+      "cross_links": [
+        "L001",
+        "L003",
+        "L007"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "L007",
+      "framework": "Laing",
+      "author": "R.D. Laing",
+      "source": "The Politics of Experience",
+      "page": 60,
+      "text": "What we call sanity, in absolute terms, is a successful attempt not to see the world as it is.",
+      "concept": "Social Control",
+      "difficulty": 2,
+      "intent": "Sanity as collective denial; conformity requires blindness",
+      "cross_links": [
+        "L006",
+        "L004",
+        "L002"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "L008",
+      "framework": "Laing",
+      "author": "R.D. Laing",
+      "source": "The Divided Self",
+      "page": 76,
+      "text": "The schizoid person feels unreal not because they lack reality, but because they have lost touch with their being.",
+      "concept": "Divided Self",
+      "difficulty": 2,
+      "intent": "Unreality as disconnection from being; not reality loss",
+      "cross_links": [
+        "L001",
+        "L002",
+        "L003"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "L009",
+      "framework": "Laing",
+      "author": "R.D. Laing",
+      "source": "The Politics of Experience",
+      "page": 92,
+      "text": "The person who maintains their authenticity despite social pressure has achieved extraordinary courage.",
+      "concept": "Authenticity",
+      "difficulty": 2,
+      "intent": "Authenticity as courageous resistance; not passive default",
+      "cross_links": [
+        "L006",
+        "L001",
+        "J003"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "RU001",
+      "framework": "Russians",
+      "author": "Fyodor Dostoevsky",
+      "source": "Crime and Punishment",
+      "page": 112,
+      "text": "Raskolnikov stood before himself as a test case. He would not allow himself to surrender to his shadow but neither could he integrate it. He remained split.",
+      "concept": "Shadow Manifestation",
+      "difficulty": 2,
+      "intent": "Shadow rejection leads to splitting; neither acceptance nor integration",
+      "cross_links": [
+        "J004",
+        "L002",
+        "G001"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "RU002",
+      "framework": "Russians",
+      "author": "Fyodor Dostoevsky",
+      "source": "Crime and Punishment",
+      "page": 134,
+      "text": "The crime was not the act but the refusal to accept responsibility for the act. Evil lives in evasion.",
+      "concept": "Moral Choice Under Constraint",
+      "difficulty": 2,
+      "intent": "Responsibility is the gate; evasion is where shadow rules",
+      "cross_links": [
+        "F008",
+        "S022",
+        "L006"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "RU003",
+      "framework": "Russians",
+      "author": "Fyodor Dostoevsky",
+      "source": "The Brothers Karamazov",
+      "page": 219,
+      "text": "The Grand Inquisitor represents the part of humanity that seeks to control others' freedom in the name of compassion.",
+      "concept": "Shadow Manifestation",
+      "difficulty": 3,
+      "intent": "Shadow can be collective and ideological; disguises itself as virtue",
+      "cross_links": [
+        "J005",
+        "L007",
+        "B020"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "RU004",
+      "framework": "Russians",
+      "author": "Fyodor Dostoevsky",
+      "source": "The Brothers Karamazov",
+      "page": 289,
+      "text": "Dmitri Karamazov is moved by his anima; she possesses him. Only through suffering does he learn to own his desire.",
+      "concept": "Anima Possession",
+      "difficulty": 2,
+      "intent": "Anima as overwhelming force until integrated through consciousness",
+      "cross_links": [
+        "J013",
+        "F005",
+        "B012"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "RU005",
+      "framework": "Russians",
+      "author": "Fyodor Dostoevsky",
+      "source": "The Idiot",
+      "page": 47,
+      "text": "Prince Myshkin embodies the Wise Fool archetype. His goodness appears as weakness to the world, yet it is his strength.",
+      "concept": "Archetypal Strength",
+      "difficulty": 2,
+      "intent": "Archetypal goodness transcends worldly power; different hierarchy",
+      "cross_links": [
+        "J019",
+        "S009",
+        "S045"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "RU006",
+      "framework": "Russians",
+      "author": "Alexander Solzhenitsyn",
+      "source": "The Gulag Archipelago",
+      "page": 42,
+      "text": "The prisoner who maintains his integrity despite torture has already won. The system can break the body but not the will that has accepted its own nature.",
+      "concept": "Survival of Integrity",
+      "difficulty": 2,
+      "intent": "Consciousness + acceptance of reality = freedom despite constraint",
+      "cross_links": [
+        "S001",
+        "S013",
+        "F001"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "RU007",
+      "framework": "Russians",
+      "author": "Alexander Solzhenitsyn",
+      "source": "The Gulag Archipelago",
+      "page": 67,
+      "text": "Ivan Denisovich survives not by hoping for freedom but by finding meaning in small acts of dignity.",
+      "concept": "Meaning Under Constraint",
+      "difficulty": 2,
+      "intent": "Meaning-making as survival mechanism; dignity as practiced power",
+      "cross_links": [
+        "F003",
+        "F005",
+        "B001"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "RU008",
+      "framework": "Russians",
+      "author": "Alexander Solzhenitsyn",
+      "source": "Cancer Ward",
+      "page": 89,
+      "text": "Mortality becomes the great leveler. In the hospital, all pretense falls away. Only truth remains.",
+      "concept": "Psychological Testimony",
+      "difficulty": 2,
+      "intent": "Constraint (mortality) strips away persona; reveals essential self",
+      "cross_links": [
+        "S036",
+        "J008",
+        "F005"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "RU009",
+      "framework": "Russians",
+      "author": "Fyodor Dostoevsky",
+      "source": "Notes from Underground",
+      "page": 34,
+      "text": "Man will always choose consciousness of his own nature, even if that consciousness involves suffering, over comfortable unconsciousness.",
+      "concept": "Consciousness as Choice",
+      "difficulty": 2,
+      "intent": "Consciousness > comfort; humans value awareness even when painful",
+      "cross_links": [
+        "J001",
+        "L001",
+        "F002"
+      ],
+      "understanding": null
+    },
+    {
+      "id": "RU010",
+      "framework": "Russians",
+      "author": "Alexander Solzhenitsyn",
+      "source": "The Gulag Archipelago",
+      "page": 123,
+      "text": "The greatest cruelty is not physical torture but the mystification that makes the victim doubt their own sanity.",
+      "concept": "Mystification as Violence",
+      "difficulty": 2,
+      "intent": "Psychological manipulation more damaging than physical harm",
+      "cross_links": [
+        "L004",
+        "L007",
+        "B020"
+      ],
+      "understanding": null
+    }
+  ]
+}
