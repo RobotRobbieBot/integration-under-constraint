@@ -175,6 +175,16 @@ class IntegrationApp {
       ? (Object.values(this.state.passageRatings).reduce((a, b) => a + b, 0) / ratedPassages).toFixed(1)
       : 0;
 
+    // Calculate weak passages (ratings 1-2)
+    const weakPassages = this.passages.filter(p => {
+      const rating = this.state.passageRatings[p.id];
+      return rating && rating <= 2;
+    });
+
+    // Estimate completion (assuming 3 sessions/week, ~5 passages per session)
+    const remainingPassages = totalPassages - ratedPassages;
+    const estimatedWeeks = Math.ceil(remainingPassages / 15);
+
     let html = `
       <div class="container">
         <h2>Dashboard</h2>
@@ -183,15 +193,7 @@ class IntegrationApp {
           <div class="stat-card">
             <div class="stat-label">Passages Studied</div>
             <div class="stat-value">${ratedPassages}</div>
-            <div style="font-size: 12px; color: var(--color-text-muted);">of ${totalPassages}</div>
-          </div>
-          
-          <div class="stat-card">
-            <div class="stat-label">Progress</div>
-            <div class="stat-value">${progressPercent}%</div>
-            <div class="progress-bar" style="margin-top: var(--spacing-md);">
-              <div class="progress-fill" style="width: ${progressPercent}%"></div>
-            </div>
+            <div style="font-size: 12px; color: var(--color-text-muted);">of ${totalPassages} (${progressPercent}%)</div>
           </div>
           
           <div class="stat-card">
@@ -204,6 +206,20 @@ class IntegrationApp {
             <div class="stat-label">Sessions Completed</div>
             <div class="stat-value">${this.state.sessionsCompleted}</div>
           </div>
+
+          <div class="stat-card">
+            <div class="stat-label">Est. Completion</div>
+            <div class="stat-value">${estimatedWeeks}</div>
+            <div style="font-size: 12px; color: var(--color-text-muted);">weeks at current pace</div>
+          </div>
+        </div>
+
+        <div style="margin: 24px 0;">
+          <h3>Overall Progress</h3>
+          <div class="progress-bar" style="height: 8px; margin-top: 8px;">
+            <div class="progress-fill" style="width: ${progressPercent}%"></div>
+          </div>
+          <div style="font-size: 12px; color: var(--color-text-muted); margin-top: 4px;">${ratedPassages} of ${totalPassages} passages completed</div>
         </div>
 
         <h3>Framework Progress</h3>
@@ -237,6 +253,50 @@ class IntegrationApp {
         </div>
       `;
     });
+
+    html += `
+        </div>
+
+        ${weakPassages.length > 0 ? `
+          <h3 style="margin-top: 24px; color: #e74c3c;">Weak Passages (Rating 1-2)</h3>
+          <div style="background: #fadbd8; border: 0.5px solid #f5b7b1; border-radius: 8px; padding: 12px;">
+            <div style="display: grid; gap: 8px;">
+    ` : `
+          <h3 style="margin-top: 24px;">Weak Passages</h3>
+          <div style="color: var(--color-text-muted); font-size: 14px;">No weak passages yet. Keep studying!</div>
+        </div>
+    `}
+    `;
+
+    if (weakPassages.length > 0) {
+      weakPassages.slice(0, 10).forEach(p => {
+        html += `
+          <div style="background: white; padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e74c3c; font-size: 13px;">
+            <strong>${p.framework} - ${p.concept}</strong><br/>
+            <span style="color: var(--color-text-muted);">${p.author}: "${p.text.substring(0, 60)}..."</span>
+            <div style="margin-top: 4px;">
+              <button class="btn" onclick="app.reviewPassage('${p.framework}', '${p.concept}')">Review</button>
+            </div>
+          </div>
+        `;
+      });
+
+      if (weakPassages.length > 10) {
+        html += `<div style="color: var(--color-text-muted); font-size: 12px; margin-top: 8px;">+${weakPassages.length - 10} more weak passages</div>`;
+      }
+
+      html += `
+            </div>
+          </div>
+      `;
+    }
+
+    html += `
+      </div>
+    `;
+
+    document.getElementById('content').innerHTML = html;
+  }
 
     html += `
         </div>
@@ -511,6 +571,13 @@ class IntegrationApp {
     this.saveState();
     alert('Session completed! Great work. Switch to Dashboard to track progress.');
     this.switchTab('dashboard');
+  }
+
+  reviewPassage(framework, concept) {
+    this.selectedFramework = framework;
+    this.selectedConcept = concept;
+    this.selectedPassageIndex = 0;
+    this.switchTab('study');
   }
 
   submitEssay(event) {
