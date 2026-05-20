@@ -87,10 +87,39 @@ class IntegrationApp {
     }
   }
 
+  filterByFramework(framework) {
+    const firstPassageInFramework = this.passages.findIndex(p => p.framework === framework);
+    if (firstPassageInFramework !== -1) {
+      this.currentPassageIndex = firstPassageInFramework;
+      this.saveState();
+      this.render();
+    }
+  }
+
+  filterByConcept(concept) {
+    const firstPassageInConcept = this.passages.findIndex(p => p.concept === concept);
+    if (firstPassageInConcept !== -1) {
+      this.currentPassageIndex = firstPassageInConcept;
+      this.saveState();
+      this.render();
+    }
+  }
+
   render() {
     const passage = this.getCurrentPassage();
     const stats = this.getStats();
     const currentRating = passage ? this.state.passageRatings[passage.id] || 0 : 0;
+
+    // Get frameworks and concepts for filtering
+    const frameworks = {};
+    this.passages.forEach(p => {
+      if (!frameworks[p.framework]) frameworks[p.framework] = new Set();
+      frameworks[p.framework].add(p.concept);
+    });
+
+    const selectedFramework = passage?.framework || null;
+    const selectedConcept = passage?.concept || null;
+    const frameworkConcepts = selectedFramework ? Array.from(frameworks[selectedFramework]).sort() : [];
 
     let understanding = '';
     if (passage && passage.understanding && currentRating) {
@@ -109,39 +138,65 @@ class IntegrationApp {
     }
 
     const html = `
-      <div style="display: grid; grid-template-columns: 280px 1fr; gap: 16px; padding: 16px; min-height: 100vh; background: var(--color-background-tertiary);">
+      <div style="display: grid; grid-template-columns: 300px 1fr; gap: 16px; padding: 16px; min-height: 100vh; background: var(--color-background-tertiary);">
         
-        <div style="background: white; border-radius: 8px; padding: 16px; border: 0.5px solid var(--color-border-tertiary); height: fit-content; position: sticky; top: 16px;">
-          <h2 style="margin: 0 0 16px 0; font-size: 16px;">Progress</h2>
+        <div style="display: flex; flex-direction: column; gap: 16px; height: fit-content; position: sticky; top: 16px;">
           
-          <div style="margin-bottom: 16px;">
-            <div style="font-size: 12px; color: var(--color-text-muted); margin-bottom: 4px;">Overall</div>
-            <div style="font-size: 24px; font-weight: 600; color: var(--color-text-primary);">${stats.ratedPassages}</div>
-            <div style="font-size: 12px; color: var(--color-text-muted);">of ${stats.totalPassages} (${stats.progressPercent}%)</div>
-            <div style="background: var(--color-background-secondary); height: 6px; border-radius: 3px; margin-top: 8px; overflow: hidden;">
-              <div style="background: #3498db; height: 100%; width: ${stats.progressPercent}%"></div>
+          <div style="background: white; border-radius: 8px; padding: 16px; border: 0.5px solid var(--color-border-tertiary);">
+            <h3 style="margin: 0 0 12px 0; font-size: 13px; color: var(--color-text-muted); text-transform: uppercase;">Framework</h3>
+            <div style="display: grid; gap: 6px;">
+              ${Object.keys(frameworks).sort().map(fw => `
+                <button onclick="app.filterByFramework('${fw}')" style="padding: 8px 12px; background: ${selectedFramework === fw ? '#3498db' : 'white'}; color: ${selectedFramework === fw ? 'white' : 'var(--color-text-primary)'}; border: 0.5px solid ${selectedFramework === fw ? '#3498db' : 'var(--color-border-tertiary)'}; border-radius: 4px; cursor: pointer; font-size: 12px; text-align: left;">
+                  ${fw}
+                </button>
+              `).join('')}
             </div>
           </div>
 
-          <div style="margin-bottom: 16px; padding-top: 16px; border-top: 0.5px solid var(--color-border-tertiary);">
-            <div style="font-size: 12px; color: var(--color-text-muted); margin-bottom: 4px;">Avg Comprehension</div>
-            <div style="font-size: 24px; font-weight: 600; color: #3498db;">${stats.avgRating}</div>
-            <div style="font-size: 11px; color: var(--color-text-muted);">out of 5</div>
-          </div>
-
-          ${stats.weakPassages.length > 0 ? `
-            <div style="padding-top: 16px; border-top: 0.5px solid var(--color-border-tertiary);">
-              <h3 style="margin: 0 0 8px 0; font-size: 13px; color: #e74c3c;">Weak (1-2)</h3>
-              <div style="font-size: 12px; color: var(--color-text-muted);">${stats.weakPassages.length} passages</div>
-              <div style="display: grid; gap: 4px; margin-top: 8px; max-height: 200px; overflow-y: auto;">
-                ${stats.weakPassages.slice(0, 5).map(p => `
-                  <button onclick="app.goToPassage('${p.id}')" style="padding: 4px; font-size: 11px; background: #fadbd8; border: 0.5px solid #f5b7b1; border-radius: 4px; cursor: pointer; text-align: left; color: #c0392b;">
-                    ${p.framework}: ${p.concept.substring(0, 12)}
+          ${selectedFramework ? `
+            <div style="background: white; border-radius: 8px; padding: 16px; border: 0.5px solid var(--color-border-tertiary);">
+              <h3 style="margin: 0 0 12px 0; font-size: 13px; color: var(--color-text-muted); text-transform: uppercase;">Concept</h3>
+              <div style="display: grid; gap: 6px; max-height: 300px; overflow-y: auto;">
+                ${frameworkConcepts.map(concept => `
+                  <button onclick="app.filterByConcept('${concept}')" style="padding: 8px 12px; background: ${selectedConcept === concept ? '#3498db' : 'white'}; color: ${selectedConcept === concept ? 'white' : 'var(--color-text-primary)'}; border: 0.5px solid ${selectedConcept === concept ? '#3498db' : 'var(--color-border-tertiary)'}; border-radius: 4px; cursor: pointer; font-size: 11px; text-align: left;">
+                    ${concept}
                   </button>
                 `).join('')}
               </div>
             </div>
           ` : ''}
+
+          <div style="background: white; border-radius: 8px; padding: 16px; border: 0.5px solid var(--color-border-tertiary);">
+            <h3 style="margin: 0 0 12px 0; font-size: 13px;">Progress</h3>
+            
+            <div style="margin-bottom: 12px;">
+              <div style="font-size: 11px; color: var(--color-text-muted); margin-bottom: 4px;">Overall</div>
+              <div style="font-size: 20px; font-weight: 600; color: var(--color-text-primary);">${stats.ratedPassages}</div>
+              <div style="font-size: 11px; color: var(--color-text-muted);">of ${stats.totalPassages}</div>
+              <div style="background: var(--color-background-secondary); height: 4px; border-radius: 2px; margin-top: 6px; overflow: hidden;">
+                <div style="background: #3498db; height: 100%; width: ${stats.progressPercent}%"></div>
+              </div>
+            </div>
+
+            <div style="padding-top: 12px; border-top: 0.5px solid var(--color-border-tertiary);">
+              <div style="font-size: 11px; color: var(--color-text-muted); margin-bottom: 4px;">Comprehension</div>
+              <div style="font-size: 20px; font-weight: 600; color: #3498db;">${stats.avgRating}</div>
+              <div style="font-size: 10px; color: var(--color-text-muted);">of 5</div>
+            </div>
+
+            ${stats.weakPassages.length > 0 ? `
+              <div style="padding-top: 12px; border-top: 0.5px solid var(--color-border-tertiary); margin-top: 12px;">
+                <div style="font-size: 11px; color: #e74c3c; font-weight: 500; margin-bottom: 6px;">Weak (1-2): ${stats.weakPassages.length}</div>
+                <div style="display: grid; gap: 3px; max-height: 120px; overflow-y: auto;">
+                  ${stats.weakPassages.slice(0, 5).map(p => `
+                    <button onclick="app.goToPassage('${p.id}')" style="padding: 4px 8px; font-size: 10px; background: #fadbd8; border: 0.5px solid #f5b7b1; border-radius: 3px; cursor: pointer; text-align: left; color: #c0392b;">
+                      ${p.framework}: ${p.concept.substring(0, 14)}
+                    </button>
+                  `).join('')}
+                </div>
+              </div>
+            ` : ''}
+          </div>
         </div>
 
         <div style="display: flex; flex-direction: column;">
