@@ -1,0 +1,76 @@
+{
+  "framework": "Jung",
+  "total_passages": 50,
+  "passages": [
+    {
+      "id": "JUNG-001",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source_book": "Memories, Dreams, Reflections",
+      "page": 3,
+      "passage": "Until you make the unconscious conscious, it will direct your life and you will call it fate.",
+      "concept_id": "SHADOW-001",
+      "concept_name": "Shadow",
+      "difficulty": 1,
+      "intent": "Foundational: unconscious forces shape behavior until integrated",
+      "cross_links": ["COMPLEX-001", "PROJECTION-001"],
+      "status": "ready"
+    },
+    {
+      "id": "JUNG-002",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source_book": "Psychology and Religion",
+      "page": 51,
+      "passage": "The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, both are transformed.",
+      "concept_id": "ANIMA-001",
+      "concept_name": "Anima/Animus",
+      "difficulty": 1,
+      "intent": "Relational depth: meeting another transforms both",
+      "cross_links": ["PROJECTION-002", "INDIVIDUATION-001"],
+      "status": "ready"
+    },
+    {
+      "id": "JUNG-003",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source_book": "Two Essays on Analytical Psychology",
+      "page": 66,
+      "passage": "The persona is that which in reality one is not, but which oneself as well as others think one is.",
+      "concept_id": "PERSONA-001",
+      "concept_name": "Persona",
+      "difficulty": 1,
+      "intent": "Define persona as social mask vs. true self",
+      "cross_links": ["SHADOW-001", "INDIVIDUATION-001"],
+      "status": "ready"
+    },
+    {
+      "id": "JUNG-004",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source_book": "The Practice of Psychotherapy",
+      "page": 39,
+      "passage": "There is no coming to consciousness without pain. People will do anything, no matter how absurd, in order to avoid facing their own Soul. One does not become enlightened by imagining figures of light, but by making the darkness conscious.",
+      "concept_id": "SHADOW-002",
+      "concept_name": "Shadow",
+      "difficulty": 2,
+      "intent": "Shadow integration requires facing darkness; cannot be bypassed",
+      "cross_links": ["INDIVIDUATION-002", "SHADOW-001"],
+      "status": "ready"
+    },
+    {
+      "id": "JUNG-005",
+      "framework": "Jung",
+      "author": "Carl Jung",
+      "source_book": "Aion",
+      "page": 20,
+      "passage": "The shadow is that hidden, repressed, largely negative and guilt-laden personal side whose ultimate ramifications reach back into the mythological age.",
+      "concept_id": "SHADOW-003",
+      "concept_name": "Shadow",
+      "difficulty": 2,
+      "intent": "Shadow as personal + collective repression; genealogical depth",
+      "cross_links": ["COMPLEX-002", "PROJECTION-001"],
+      "status": "ready"
+    }
+  ]
+}

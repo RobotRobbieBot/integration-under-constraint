@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "total_frameworks": 7,
+    "total_passages": 230,
+    "last_updated": "2026-05-20",
+    "status": "Phase 1 in progress"
+  },
+  "frameworks": {
+    "Jung": {
+      "passage_count": 50,
+      "concepts": ["Shadow", "Anima/Animus", "Persona", "Self", "Complexes", "Individuation", "Projection", "Collective Unconscious", "Archetypes", "Synchronicity"]
+    },
+    "Bowen": {
+      "passage_count": 40,
+      "concepts": ["Differentiation", "Triangulation", "Emotional Cutoff", "Multigenerational Transmission", "Fusion", "Emotional Process", "Nuclear Family", "Extended Family"]
+    },
+    "Stoicism": {
+      "passage_count": 50,
+      "concepts": ["Dichotomy of Control", "Assent/Judgment", "Virtue", "Amor Fati", "Apatheia", "Duty", "Cosmopolitanism", "Reason"]
+    },
+    "Gurdjieff": {
+      "passage_count": 20,
+      "concepts": ["Mechanical Reaction", "Conscious Labor", "Being-Doing Gap", "Real I", "Magnetic Center"]
+    },
+    "Frankl": {
+      "passage_count": 15,
+      "concepts": ["Meaning-Making", "Freedom of Attitude", "Logotherapy", "Responsibility", "Suffering as Opportunity"]
+    },
+    "Laing": {
+      "passage_count": 15,
+      "concepts": ["Divided Self", "Authenticity", "Social Control", "Ontological Security", "Mystification"]
+    },
+    "Russians": {
+      "passage_count": 40,
+      "concepts": ["Psychological Testimony", "Moral Choice Under Constraint", "Survival of Integrity", "Shadow Manifestation", "Spiritual Resilience"]
+    }
+  },
+  "passages": []
+}
